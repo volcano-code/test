@@ -17,3 +17,30 @@ does not establish training reproducibility or model accuracy. Native, Python
 and third-party dependencies used by local scripts must be provisioned separately.
 
 All local files were preserved. No training jobs were started for this archive.
+
+## Selected variant
+
+```json
+{
+  "name": "strict_physics_residual_pino_v17_safe90_20260718",
+  "files": [
+    {
+      "path": "checkpoints/strict_physics_residual_pino_v17_safe90_20260718/best_model.pt",
+      "bytes": 154573383
+    },
+    {
+      "path": "checkpoints/strict_physics_residual_pino_v17_safe90_20260718/epoch_50.pt",
+      "bytes": 54383427
+    },
+    {
+      "path": "checkpoints/strict_physics_residual_pino_v17_safe90_20260718/last_model.pt",
+      "bytes": 54384811
+    },
+    {
+      "path": "checkpoints/strict_physics_residual_pino_v17_safe90_20260718/training_history.json",
+      "bytes": 98480
+    }
+  ],
+  "weights_uploaded": false
+}
+```
