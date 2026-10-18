@@ -1,0 +1,10 @@
+{
+  "name": "current_candidate_targeted_safe_pino_20260708",
+  "files": [
+    {
+      "path": "checkpoints/current_candidate_targeted_safe_pino_20260708/decision_aware_targeted_safe_pino.pt",
+      "bytes": 16814546
+    }
+  ],
+  "weights_uploaded": false
+}
