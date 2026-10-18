@@ -1,0 +1,10 @@
+{
+  "name": "pino_safe_accept90_cal240_m12_20260704",
+  "files": [
+    {
+      "path": "checkpoints/pino_safe_accept90_cal240_m12_20260704/safe_side_external_hardneg_scale.pt",
+      "bytes": 17970143
+    }
+  ],
+  "weights_uploaded": false
+}
