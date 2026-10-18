@@ -1,0 +1,10 @@
+{
+  "name": "merged_near_boundary_decision_gate_noleak_20260705",
+  "files": [
+    {
+      "path": "checkpoints/merged_near_boundary_decision_gate_noleak_20260705/gate.joblib",
+      "bytes": 14473945
+    }
+  ],
+  "weights_uploaded": false
+}

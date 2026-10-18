@@ -17,3 +17,18 @@ does not establish training reproducibility or model accuracy. Native, Python
 and third-party dependencies used by local scripts must be provisioned separately.
 
 All local files were preserved. No training jobs were started for this archive.
+
+## Selected variant
+
+```json
+{
+  "name": "merged_near_boundary_decision_gate_noleak_20260705",
+  "files": [
+    {
+      "path": "checkpoints/merged_near_boundary_decision_gate_noleak_20260705/gate.joblib",
+      "bytes": 14473945
+    }
+  ],
+  "weights_uploaded": false
+}
+```
