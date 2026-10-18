@@ -17,3 +17,78 @@ does not establish training reproducibility or model accuracy. Native, Python
 and third-party dependencies used by local scripts must be provisioned separately.
 
 All local files were preserved. No training jobs were started for this archive.
+
+## Selected variant
+
+```json
+{
+  "name": "pino_component_ablations_20260720",
+  "files": [
+    {
+      "path": "checkpoints/pino_component_ablations_20260720/w_o_asymmetric_loss/best_model.pt",
+      "bytes": 154573383
+    },
+    {
+      "path": "checkpoints/pino_component_ablations_20260720/w_o_asymmetric_loss/epoch_50.pt",
+      "bytes": 54383427
+    },
+    {
+      "path": "checkpoints/pino_component_ablations_20260720/w_o_asymmetric_loss/last_model.pt",
+      "bytes": 54384811
+    },
+    {
+      "path": "checkpoints/pino_component_ablations_20260720/w_o_asymmetric_loss/training_history.json",
+      "bytes": 119937
+    },
+    {
+      "path": "checkpoints/pino_component_ablations_20260720/w_o_physics/best_model.pt",
+      "bytes": 154573383
+    },
+    {
+      "path": "checkpoints/pino_component_ablations_20260720/w_o_physics/epoch_50.pt",
+      "bytes": 54383427
+    },
+    {
+      "path": "checkpoints/pino_component_ablations_20260720/w_o_physics/last_model.pt",
+      "bytes": 54384811
+    },
+    {
+      "path": "checkpoints/pino_component_ablations_20260720/w_o_physics/training_history.json",
+      "bytes": 131854
+    },
+    {
+      "path": "checkpoints/pino_component_ablations_20260720/w_o_scale_fno/best_model.pt",
+      "bytes": 134898009
+    },
+    {
+      "path": "checkpoints/pino_component_ablations_20260720/w_o_scale_fno/epoch_50.pt",
+      "bytes": 44960229
+    },
+    {
+      "path": "checkpoints/pino_component_ablations_20260720/w_o_scale_fno/last_model.pt",
+      "bytes": 44961453
+    },
+    {
+      "path": "checkpoints/pino_component_ablations_20260720/w_o_scale_fno/training_history.json",
+      "bytes": 135043
+    },
+    {
+      "path": "checkpoints/pino_component_ablations_20260720/w_o_structural_context/best_model.pt",
+      "bytes": 154571079
+    },
+    {
+      "path": "checkpoints/pino_component_ablations_20260720/w_o_structural_context/epoch_50.pt",
+      "bytes": 54382659
+    },
+    {
+      "path": "checkpoints/pino_component_ablations_20260720/w_o_structural_context/last_model.pt",
+      "bytes": 54384043
+    },
+    {
+      "path": "checkpoints/pino_component_ablations_20260720/w_o_structural_context/training_history.json",
+      "bytes": 141105
+    }
+  ],
+  "weights_uploaded": false
+}
+```
