@@ -1,0 +1,4 @@
+{
+  "architecture": "hr-pino",
+  "entry": "structural/models/hr_pino.py:HRPINO3d"
+}
