@@ -17,3 +17,30 @@ does not establish training reproducibility or model accuracy. Native, Python
 and third-party dependencies used by local scripts must be provisioned separately.
 
 All local files were preserved. No training jobs were started for this archive.
+
+## Selected variant
+
+```json
+{
+  "name": "pino_v24_ufno_dual",
+  "files": [
+    {
+      "path": "checkpoints/pino_v24_ufno_dual/best_model.pt",
+      "bytes": 502367397
+    },
+    {
+      "path": "checkpoints/pino_v24_ufno_dual/best_model_e10_sf0991.pt",
+      "bytes": 502367397
+    },
+    {
+      "path": "checkpoints/pino_v24_ufno_dual/epoch_50.pt",
+      "bytes": 167447728
+    },
+    {
+      "path": "checkpoints/pino_v24_ufno_dual/training_history.json",
+      "bytes": 25411
+    }
+  ],
+  "weights_uploaded": false
+}
+```
