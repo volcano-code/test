@@ -17,3 +17,18 @@ does not establish training reproducibility or model accuracy. Native, Python
 and third-party dependencies used by local scripts must be provisioned separately.
 
 All local files were preserved. No training jobs were started for this archive.
+
+## Selected variant
+
+```json
+{
+  "name": "current_candidate_decision_aware_pino_smoke_20260708",
+  "files": [
+    {
+      "path": "checkpoints/current_candidate_decision_aware_pino_smoke_20260708/decision_aware_pino.pt",
+      "bytes": 16813944
+    }
+  ],
+  "weights_uploaded": false
+}
+```
