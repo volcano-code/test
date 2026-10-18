@@ -1,0 +1,18 @@
+{
+  "name": "v29_v27_pinball",
+  "files": [
+    {
+      "path": "checkpoints/v29_v27_pinball/best_scale_sf.pt",
+      "bytes": 26311030
+    },
+    {
+      "path": "checkpoints/v29_v27_pinball/history.json",
+      "bytes": 68855
+    },
+    {
+      "path": "checkpoints/v29_v27_pinball/training_summary.json",
+      "bytes": 1066
+    }
+  ],
+  "weights_uploaded": false
+}
