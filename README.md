@@ -17,3 +17,13 @@ does not establish training reproducibility or model accuracy. Native, Python
 and third-party dependencies used by local scripts must be provisioned separately.
 
 All local files were preserved. No training jobs were started for this archive.
+
+## Selected variant
+
+```json
+{
+  "name": "official_gino_official_formal_20260723",
+  "files": [],
+  "weights_uploaded": false
+}
+```
