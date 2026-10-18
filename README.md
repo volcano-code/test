@@ -17,3 +17,26 @@ does not establish training reproducibility or model accuracy. Native, Python
 and third-party dependencies used by local scripts must be provisioned separately.
 
 All local files were preserved. No training jobs were started for this archive.
+
+## Selected variant
+
+```json
+{
+  "name": "v29b_v27_pinball_s2605",
+  "files": [
+    {
+      "path": "checkpoints/v29b_v27_pinball_s2605/best_scale_sf.pt",
+      "bytes": 26311030
+    },
+    {
+      "path": "checkpoints/v29b_v27_pinball_s2605/history.json",
+      "bytes": 68786
+    },
+    {
+      "path": "checkpoints/v29b_v27_pinball_s2605/training_summary.json",
+      "bytes": 1064
+    }
+  ],
+  "weights_uploaded": false
+}
+```
