@@ -17,3 +17,18 @@ does not establish training reproducibility or model accuracy. Native, Python
 and third-party dependencies used by local scripts must be provisioned separately.
 
 All local files were preserved. No training jobs were started for this archive.
+
+## Selected variant
+
+```json
+{
+  "name": "current_candidate_maxcoverage_pino_smoke_20260709",
+  "files": [
+    {
+      "path": "checkpoints/current_candidate_maxcoverage_pino_smoke_20260709/maxcoverage_decision_pino.pt",
+      "bytes": 28175856
+    }
+  ],
+  "weights_uploaded": false
+}
+```
