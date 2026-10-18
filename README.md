@@ -17,3 +17,34 @@ does not establish training reproducibility or model accuracy. Native, Python
 and third-party dependencies used by local scripts must be provisioned separately.
 
 All local files were preserved. No training jobs were started for this archive.
+
+## Selected variant
+
+```json
+{
+  "name": "current_candidate_physics_pino_stable_v2_120epoch_20260711",
+  "files": [
+    {
+      "path": "checkpoints/current_candidate_physics_pino_stable_v2_120epoch_20260711/best_model.pt",
+      "bytes": 512034027
+    },
+    {
+      "path": "checkpoints/current_candidate_physics_pino_stable_v2_120epoch_20260711/epoch_100.pt",
+      "bytes": 177114507
+    },
+    {
+      "path": "checkpoints/current_candidate_physics_pino_stable_v2_120epoch_20260711/epoch_50.pt",
+      "bytes": 177114346
+    },
+    {
+      "path": "checkpoints/current_candidate_physics_pino_stable_v2_120epoch_20260711/last_model.pt",
+      "bytes": 177115855
+    },
+    {
+      "path": "checkpoints/current_candidate_physics_pino_stable_v2_120epoch_20260711/training_history.json",
+      "bytes": 168075
+    }
+  ],
+  "weights_uploaded": false
+}
+```
