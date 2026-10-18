@@ -17,3 +17,18 @@ does not establish training reproducibility or model accuracy. Native, Python
 and third-party dependencies used by local scripts must be provisioned separately.
 
 All local files were preserved. No training jobs were started for this archive.
+
+## Selected variant
+
+```json
+{
+  "name": "scale_head_v2_weighted.bak",
+  "files": [
+    {
+      "path": "checkpoints/scale_head_v2_weighted.bak/best_scale_head_v2_weighted.pt",
+      "bytes": 9668485
+    }
+  ],
+  "weights_uploaded": false
+}
+```

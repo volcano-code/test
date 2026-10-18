@@ -1,0 +1,10 @@
+{
+  "name": "scale_head_v2_weighted.bak",
+  "files": [
+    {
+      "path": "checkpoints/scale_head_v2_weighted.bak/best_scale_head_v2_weighted.pt",
+      "bytes": 9668485
+    }
+  ],
+  "weights_uploaded": false
+}
