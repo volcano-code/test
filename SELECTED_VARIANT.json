@@ -1,0 +1,4 @@
+{
+  "architecture": "pino3d",
+  "entry": "structural/models/pino.py:PINO3d"
+}
