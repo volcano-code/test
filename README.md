@@ -17,3 +17,26 @@ does not establish training reproducibility or model accuracy. Native, Python
 and third-party dependencies used by local scripts must be provisioned separately.
 
 All local files were preserved. No training jobs were started for this archive.
+
+## Selected variant
+
+```json
+{
+  "name": "v27_shadowart_scale_sf_safety",
+  "files": [
+    {
+      "path": "checkpoints/v27_shadowart_scale_sf_safety/best_scale_sf.pt",
+      "bytes": 26311030
+    },
+    {
+      "path": "checkpoints/v27_shadowart_scale_sf_safety/history.json",
+      "bytes": 170046
+    },
+    {
+      "path": "checkpoints/v27_shadowart_scale_sf_safety/training_summary.json",
+      "bytes": 1050
+    }
+  ],
+  "weights_uploaded": false
+}
+```
