@@ -1,0 +1,4 @@
+{
+  "architecture": "ufno-dual",
+  "entry": "structural/models/pino.py:UFNODualBranch3d"
+}
