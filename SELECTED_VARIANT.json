@@ -1,0 +1,14 @@
+{
+  "name": "selective_safe_accept_gate_cal240_20260703",
+  "files": [
+    {
+      "path": "checkpoints/selective_safe_accept_gate_cal240_20260703/gate.joblib",
+      "bytes": 175408
+    },
+    {
+      "path": "checkpoints/selective_safe_accept_gate_cal240_20260703/hybrid_logistic.joblib",
+      "bytes": 1777
+    }
+  ],
+  "weights_uploaded": false
+}

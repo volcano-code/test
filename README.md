@@ -17,3 +17,22 @@ does not establish training reproducibility or model accuracy. Native, Python
 and third-party dependencies used by local scripts must be provisioned separately.
 
 All local files were preserved. No training jobs were started for this archive.
+
+## Selected variant
+
+```json
+{
+  "name": "selective_safe_accept_gate_cal240_20260703",
+  "files": [
+    {
+      "path": "checkpoints/selective_safe_accept_gate_cal240_20260703/gate.joblib",
+      "bytes": 175408
+    },
+    {
+      "path": "checkpoints/selective_safe_accept_gate_cal240_20260703/hybrid_logistic.joblib",
+      "bytes": 1777
+    }
+  ],
+  "weights_uploaded": false
+}
+```
