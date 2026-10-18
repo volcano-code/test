@@ -1,0 +1,38 @@
+{
+  "schema": "pcraft_fixed_surface_extension_v1",
+  "status": "EXPERIMENTAL",
+  "active_pipeline_modified": false,
+  "reference": {
+    "manifest": "results/dark_knight_two_view_reproduction_20260726_v2/MANIFEST.json",
+    "view_model": "fixed_two_wall",
+    "n_views": 2,
+    "mean_iou": 0.9893638441231147,
+    "min_iou": 0.9877709286140386,
+    "saving": 0.3757220852601435,
+    "watertight": true,
+    "outer_components": 1,
+    "sf_fem": 5.492419582189445
+  },
+  "extension": {
+    "receiver_order": ["left_wall_x", "right_wall_y", "bottom_z"],
+    "allowed_view_counts": [2, 3],
+    "soft_resolution": 256,
+    "structural_resolution": 48,
+    "delivery_resolution": 256,
+    "state_machine": [
+      "threshold_seed",
+      "ray_restoration",
+      "bridge_repair",
+      "guarded_carving",
+      "delivery_shell",
+      "fabrication_qa",
+      "pino_ranking",
+      "selective_fem"
+    ],
+    "forbidden_additions": [
+      "independently_selectable_visual_hull_candidate",
+      "protocol-specific target rotation",
+      "per-candidate coordinate-frame changes"
+    ]
+  }
+}

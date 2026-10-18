@@ -1,0 +1,151 @@
+{
+  "batch_id": "full_pipeline_batch_2v3v_20260730",
+  "root": "/home/lin/xvxinyao/ShadowForge",
+  "python": "/home/lin/anaconda3/envs/shadowart-revisited/bin/python",
+  "pipeline": "/home/lin/xvxinyao/ShadowForge/shadowforge_pipeline/unified_run.py",
+  "checkpoint": "/home/lin/xvxinyao/ShadowForge/checkpoints/strict_physics_residual_pino_v16_shadowart_scale_20260718/best_model.pt",
+  "policy": "/home/lin/xvxinyao/ShadowForge/results/pino_ranked_fem_taskdisjoint_v16_20260720/frozen_policy.json",
+  "output_root": "/home/lin/xvxinyao/ShadowForge/results/full_pipeline_batch_2v3v_20260730",
+  "log_root": "/home/lin/xvxinyao/ShadowForge/logs/full_pipeline_batch_2v3v_20260730",
+  "minimum_free_gb": 20,
+  "cases": [
+    {
+      "id": "2v_anime_fox_miko_violinist",
+      "views": 2,
+      "category": "anime",
+      "tsf": 0,
+      "mr": 0,
+      "silhouettes": [
+        "/home/lin/xvxinyao/ShadowForge/results/anime_two_wall_fixed_no_floor_wall_aligned_v2_upright_base_10cm_256_20260709/fox_miko_left__violinist_right/inputs/left_wall_x_view1_target.png",
+        "/home/lin/xvxinyao/ShadowForge/results/anime_two_wall_fixed_no_floor_wall_aligned_v2_upright_base_10cm_256_20260709/fox_miko_left__violinist_right/inputs/right_wall_y_view2_target.png"
+      ]
+    },
+    {
+      "id": "3v_anime_blackrabbit_fox_prince",
+      "views": 3,
+      "category": "anime",
+      "tsf": 1,
+      "mr": 0,
+      "silhouettes": [
+        "/home/lin/xvxinyao/ShadowForge/results/latest30_anime_silhouette_screen_20260708/normalized_white_on_black/20_黑色兔子剪影.png",
+        "/home/lin/xvxinyao/ShadowForge/results/latest30_anime_silhouette_screen_20260708/normalized_white_on_black/05_狐狸披风小孩剪影.png",
+        "/home/lin/xvxinyao/ShadowForge/results/latest30_anime_silhouette_screen_20260708/normalized_white_on_black/22_可爱王子矢量剪影.png"
+      ]
+    },
+    {
+      "id": "2v_simple_parrot_snail",
+      "views": 2,
+      "category": "simple",
+      "tsf": 0,
+      "mr": 0,
+      "silhouettes": [
+        "/home/lin/xvxinyao/ShadowForge/results/fem_two_wall_print_candidate_search_20260714/simple/L01_parrot_snail/inputs/left_wall_x_target.png",
+        "/home/lin/xvxinyao/ShadowForge/results/fem_two_wall_print_candidate_search_20260714/simple/L01_parrot_snail/inputs/right_wall_y_target.png"
+      ]
+    },
+    {
+      "id": "3v_simple_parrot_snail_owl",
+      "views": 3,
+      "category": "simple",
+      "tsf": 1,
+      "mr": 0,
+      "silhouettes": [
+        "/home/lin/xvxinyao/ShadowForge/results/fem_two_wall_print_candidate_search_20260714/simple/L01_parrot_snail/inputs/left_wall_x_target.png",
+        "/home/lin/xvxinyao/ShadowForge/results/fem_two_wall_print_candidate_search_20260714/simple/L01_parrot_snail/inputs/right_wall_y_target.png",
+        "/home/lin/xvxinyao/ShadowForge/results/fem_two_wall_print_candidate_search_20260714/simple/L02_owl_turtle/inputs/left_wall_x_target.png"
+      ]
+    },
+    {
+      "id": "2v_mixed_future_mech_beetle",
+      "views": 2,
+      "category": "mixed",
+      "tsf": 0,
+      "mr": 0,
+      "silhouettes": [
+        "/home/lin/xvxinyao/ShadowForge/results/fem_two_wall_print_candidate_search_20260714/anime/H01_future_mech/inputs/left_wall_x_target.png",
+        "/home/lin/xvxinyao/ShadowForge/results/fem_two_wall_print_candidate_search_20260714/simple/L03_frog_beetle/inputs/right_wall_y_target.png"
+      ]
+    },
+    {
+      "id": "3v_mixed_future_beetle_swordfox",
+      "views": 3,
+      "category": "mixed",
+      "tsf": 1,
+      "mr": 0,
+      "silhouettes": [
+        "/home/lin/xvxinyao/ShadowForge/results/fem_two_wall_print_candidate_search_20260714/anime/H01_future_mech/inputs/left_wall_x_target.png",
+        "/home/lin/xvxinyao/ShadowForge/results/fem_two_wall_print_candidate_search_20260714/simple/L03_frog_beetle/inputs/right_wall_y_target.png",
+        "/home/lin/xvxinyao/ShadowForge/results/fem_two_wall_print_candidate_search_20260714/anime/H02_sword_fox/inputs/left_wall_x_target.png"
+      ]
+    },
+    {
+      "id": "2v_anime_future_mecha_skater",
+      "views": 2,
+      "category": "anime",
+      "tsf": 0,
+      "mr": 0,
+      "silhouettes": [
+        "/home/lin/xvxinyao/ShadowForge/results/anime_two_wall_fixed_no_floor_wall_aligned_v2_upright_base_10cm_256_20260709/future_mecha_left__skater_right/inputs/left_wall_x_view1_target.png",
+        "/home/lin/xvxinyao/ShadowForge/results/anime_two_wall_fixed_no_floor_wall_aligned_v2_upright_base_10cm_256_20260709/future_mecha_left__skater_right/inputs/right_wall_y_view2_target.png"
+      ]
+    },
+    {
+      "id": "3v_anime_catgirl_rabbit_mushroom",
+      "views": 3,
+      "category": "anime",
+      "tsf": 1,
+      "mr": 0,
+      "silhouettes": [
+        "/home/lin/xvxinyao/ShadowForge/results/latest30_anime_silhouette_screen_20260708/normalized_white_on_black/10_黑色猫耳披风人物轮廓.png",
+        "/home/lin/xvxinyao/ShadowForge/results/latest30_anime_silhouette_screen_20260708/normalized_white_on_black/08_兔耳小人_图标.png",
+        "/home/lin/xvxinyao/ShadowForge/results/latest30_anime_silhouette_screen_20260708/normalized_white_on_black/01_蘑菇帽子的小精灵.png"
+      ]
+    },
+    {
+      "id": "2v_simple_owl_turtle",
+      "views": 2,
+      "category": "simple",
+      "tsf": 0,
+      "mr": 0,
+      "silhouettes": [
+        "/home/lin/xvxinyao/ShadowForge/results/fem_two_wall_print_candidate_search_20260714/simple/L02_owl_turtle/inputs/left_wall_x_target.png",
+        "/home/lin/xvxinyao/ShadowForge/results/fem_two_wall_print_candidate_search_20260714/simple/L02_owl_turtle/inputs/right_wall_y_target.png"
+      ]
+    },
+    {
+      "id": "3v_simple_owl_turtle_frog",
+      "views": 3,
+      "category": "simple",
+      "tsf": 1,
+      "mr": 0,
+      "silhouettes": [
+        "/home/lin/xvxinyao/ShadowForge/results/fem_two_wall_print_candidate_search_20260714/simple/L02_owl_turtle/inputs/left_wall_x_target.png",
+        "/home/lin/xvxinyao/ShadowForge/results/fem_two_wall_print_candidate_search_20260714/simple/L02_owl_turtle/inputs/right_wall_y_target.png",
+        "/home/lin/xvxinyao/ShadowForge/results/fem_two_wall_print_candidate_search_20260714/simple/L03_frog_beetle/inputs/left_wall_x_target.png"
+      ]
+    },
+    {
+      "id": "2v_mixed_swordfox_bunny",
+      "views": 2,
+      "category": "mixed",
+      "tsf": 0,
+      "mr": 0,
+      "silhouettes": [
+        "/home/lin/xvxinyao/ShadowForge/results/fem_two_wall_print_candidate_search_20260714/anime/H02_sword_fox/inputs/left_wall_x_target.png",
+        "/home/lin/xvxinyao/ShadowForge/results/fem_two_wall_print_candidate_search_20260714/simple/L04_armadillo_bunny/inputs/right_wall_y_target.png"
+      ]
+    },
+    {
+      "id": "3v_mixed_armadillo_swordfox_parrot",
+      "views": 3,
+      "category": "mixed",
+      "tsf": 1,
+      "mr": 0,
+      "silhouettes": [
+        "/home/lin/xvxinyao/ShadowForge/results/fem_two_wall_print_candidate_search_20260714/simple/L04_armadillo_bunny/inputs/left_wall_x_target.png",
+        "/home/lin/xvxinyao/ShadowForge/results/fem_two_wall_print_candidate_search_20260714/anime/H02_sword_fox/inputs/right_wall_y_target.png",
+        "/home/lin/xvxinyao/ShadowForge/results/fem_two_wall_print_candidate_search_20260714/simple/L01_parrot_snail/inputs/left_wall_x_target.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "status": "pre_registered_before_formal_rerun",
+  "purpose": "Isolate the contribution of each soft-stage loss under a matched protocol.",
+  "tasks": [
+    "arcane_casters",
+    "blade_heroes",
+    "stage_dancers"
+  ],
+  "seeds": [
+    17,
+    23,
+    42
+  ],
+  "variants": [
+    "full",
+    "w_o_Ldice",
+    "w_o_Lssim",
+    "w_o_Lout"
+  ],
+  "fixed_protocol": {
+    "resolution": 128,
+    "iterations": 2000,
+    "learning_rate": 0.007,
+    "view_update_mode": "joint",
+    "tsf": 1,
+    "mirror": 1,
+    "export_final_step": true,
+    "geometry_processing": false
+  },
+  "reported_metrics": [
+    "mean IoU",
+    "mean Dice",
+    "exterior leakage rate"
+  ],
+  "interpretation": {
+    "Lout": "Supported if removal increases exterior leakage without a compensating projection-quality gain.",
+    "Lssim": "Supported if removal degrades mean IoU or Dice across the fixed task-seed cohort.",
+    "Ldice": "Report the measured effect; do not claim a contribution if confidence intervals overlap or removal improves the metrics."
+  },
+  "exclusions": [
+    "No task selection after observing ablation outcomes.",
+    "No joint-versus-sequential update comparison in this loss-component table.",
+    "No geometry, connectivity, material, or mesh metrics."
+  ]
+}

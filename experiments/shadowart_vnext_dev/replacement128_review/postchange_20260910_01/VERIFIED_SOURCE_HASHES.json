@@ -1,0 +1,6 @@
+{
+  "experiments/shadowart_vnext/component_replacement.py": "679539118a8c19996a320112e97e91ac39a8708f240ca22d4e8ad3b5363595cc",
+  "experiments/shadowart_vnext/replacement_paths.py": "580df086fc7d2853bd84826210ffa6748b7dead7b3212ac01b5c64f2a225765a",
+  "experiments/shadowart_vnext_dev/run_replacement128_probe_20260910.py": "8d0f86290b4759daa4dbbefe617e207f5d2cfcb2d142efd3da01e950bf052404",
+  "tests/test_shadowart_vnext_component_replacement.py": "0e410b704b9fc231635231b4d9a6d8ea2617ddbdf3767652ca66762551472a2b"
+}

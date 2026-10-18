@@ -1,0 +1,30 @@
+{
+  "protocol": {
+    "views": 3,
+    "declared_rendered_views": 6,
+    "axes": ["x", "y", "z"],
+    "camera": "fixed orthographic TFS",
+    "tsf": 1,
+    "mr": 1,
+    "zdist": 1.7,
+    "resolution": 256,
+    "seeds": [17],
+    "evaluation": "shared canonical masks and prescribed mirrors; no registration"
+  },
+  "cases": [
+    {
+      "case_id": "adventurer_schoolgirl_fighter",
+      "stratum": "fig4-anime-original",
+      "target_paths_xyz": [
+        "/home/lin/xvxinyao/ShadowForge/results/fig4_anime_curated_original_v1_20260724/inputs/adventurer_schoolgirl_fighter_view_x.png",
+        "/home/lin/xvxinyao/ShadowForge/results/fig4_anime_curated_original_v1_20260724/inputs/adventurer_schoolgirl_fighter_view_y.png",
+        "/home/lin/xvxinyao/ShadowForge/results/fig4_anime_curated_original_v1_20260724/inputs/adventurer_schoolgirl_fighter_view_z.png"
+      ],
+      "sadekar_tfs_targets": [
+        "/home/lin/xvxinyao/ShadowForge/results/fig4_anime_curated_original_v1_20260724/inputs/adventurer_schoolgirl_fighter_view_y.png",
+        "/home/lin/xvxinyao/ShadowForge/results/fig4_anime_curated_original_v1_20260724/inputs/adventurer_schoolgirl_fighter_view_x.png",
+        "/home/lin/xvxinyao/ShadowForge/results/fig4_anime_curated_original_v1_20260724/inputs/adventurer_schoolgirl_fighter_view_z.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "experiments/shadowart_vnext/ray_demand.py": "6f00e639a156e06de107afb23a87b09f5e0c0de6ee83f2343c6d1a0c9505cfe1",
+  "experiments/shadowart_vnext/demand_replacement.py": "03579c0b892c3966d04cda4fe3c350c33cc156ba3c700ab3b639facc5d0f2161",
+  "experiments/shadowart_vnext_dev/run_demand128_probe_20260912.py": "2d3a1469a1b9ee2445fdb14f1918ea6b992bc4bf6d0993e022bfa443e38fd6c3",
+  "tests/test_shadowart_vnext_ray_demand.py": "dc46b20b43a2927ddb1d05b7d9a08d2ea300b44076e7ef5fe55117fbc62a9c3b"
+}

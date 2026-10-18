@@ -1,0 +1,8 @@
+{
+  "experiments/shadowart_vnext/ray_ledger.py": "de6b35b1e31defaf8e4172ff6476895f8e116bf9b6eaa647140f94c87593d941",
+  "experiments/shadowart_vnext/relocation_proposals.py": "b57a54d92031ea0273658900a525508c95e6fdb45be52629dce139513fe98e9d",
+  "experiments/shadowart_vnext/material_relocation.py": "43eb04063644669e56f20fdbcde2bf57035118219d74bdbfa59070f61dc715c8",
+  "experiments/shadowart_vnext_dev/run_relocation128_probe_20260912.py": "05a7bd3ad771957103b023e04b4984c0b8c058546a7930b6c9bfc6838d6bdbf7",
+  "tests/test_shadowart_vnext_ray_ledger.py": "bdb6b617e33389a0d43d0d20354234948bed48fb236a3761f3dc83ad89afeaa1",
+  "tests/test_shadowart_vnext_material_relocation.py": "da81757bde136027f84840ed3cb920e8088e0778c69a58c5fb556743cd2dcf69"
+}

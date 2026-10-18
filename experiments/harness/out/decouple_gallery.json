@@ -1,0 +1,42 @@
+[
+  {
+    "example": "lobster_bat_frog",
+    "coarse_iou": 0.9331,
+    "decoupled_iou": 0.9815,
+    "saving": 0.4562,
+    "single": true,
+    "watertight": true
+  },
+  {
+    "example": "owl_frog_dragon",
+    "coarse_iou": 0.9659,
+    "decoupled_iou": 0.9982,
+    "saving": 0.5741,
+    "single": true,
+    "watertight": true
+  },
+  {
+    "example": "spider_dragon_owl",
+    "coarse_iou": 0.9402,
+    "decoupled_iou": 0.9946,
+    "saving": 0.4525,
+    "single": true,
+    "watertight": true
+  },
+  {
+    "example": "eagle_bee_frog",
+    "coarse_iou": 0.9671,
+    "decoupled_iou": 0.9949,
+    "saving": 0.5164,
+    "single": true,
+    "watertight": true
+  },
+  {
+    "example": "turtle_peacock_bat",
+    "coarse_iou": 0.966,
+    "decoupled_iou": 0.9964,
+    "saving": 0.5574,
+    "single": true,
+    "watertight": true
+  }
+]

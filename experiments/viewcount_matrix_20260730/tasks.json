@@ -1,0 +1,148 @@
+{
+  "experiment": "anime_ordinary_mixed_by_view_count",
+  "date": "2026-07-30",
+  "matrix": [
+    {
+      "id": "anime_2v_fox_miko_violinist",
+      "family": "anime",
+      "views": 2,
+      "evidence_origin": "historical_audited",
+      "result_dir": "results/anime_full_pipeline_2v2_3v2_20260723/two_view_fox_miko_violinist",
+      "protocol": "mature_two_wall",
+      "structural_backend": "PINO-ranked selective voxel FEM"
+    },
+    {
+      "id": "anime_2v_street_mecha",
+      "family": "anime",
+      "views": 2,
+      "evidence_origin": "historical_audited",
+      "result_dir": "results/fem_two_wall_print_candidate_search_20260714/anime/H03_street_mecha",
+      "protocol": "mature_two_wall",
+      "structural_backend": "PINO-ranked selective voxel FEM"
+    },
+    {
+      "id": "anime_3v_adventurer_schoolgirl_fighter",
+      "family": "anime",
+      "views": 3,
+      "evidence_origin": "historical_audited",
+      "result_dir": "results/fig4_anime_multiview_v2_gatepass_20260728_run3",
+      "protocol": "isolated_v256_owned_multiview",
+      "structural_backend": "48^3 proxy emitted; structural replay not part of this geometry run"
+    },
+    {
+      "id": "anime_3v_diverse_13_21_23",
+      "family": "anime",
+      "views": 3,
+      "evidence_origin": "new_run",
+      "result_dir": "results/viewcount_matrix_anime_ordinary_mixed_20260730/anime_3v_diverse_13_21_23",
+      "protocol": "isolated_v256_owned_multiview",
+      "structural_backend": "48^3 proxy emitted; structural replay deferred"
+    },
+    {
+      "id": "ordinary_2v_parrot_snail",
+      "family": "ordinary",
+      "views": 2,
+      "evidence_origin": "historical_audited",
+      "result_dir": "results/ordinary_two_view_rebuild_com_20260729/rebuilds/parrot_snail",
+      "protocol": "mature_two_wall",
+      "structural_backend": "not requested in the audited rebuild"
+    },
+    {
+      "id": "ordinary_2v_frog_beetle",
+      "family": "ordinary",
+      "views": 2,
+      "evidence_origin": "historical_audited",
+      "result_dir": "results/ordinary_two_view_rebuild_com_20260729/rebuilds/frog_beetle",
+      "protocol": "mature_two_wall",
+      "structural_backend": "not requested in the audited rebuild"
+    },
+    {
+      "id": "ordinary_3v_beetle_parrot_eagle",
+      "family": "ordinary",
+      "views": 3,
+      "evidence_origin": "new_run",
+      "result_dir": "results/viewcount_matrix_anime_ordinary_mixed_20260730/ordinary_3v_beetle_parrot_eagle",
+      "protocol": "isolated_v256_owned_multiview",
+      "structural_backend": "48^3 proxy emitted; structural replay deferred"
+    },
+    {
+      "id": "ordinary_3v_connected09",
+      "family": "ordinary",
+      "views": 3,
+      "evidence_origin": "historical_audited",
+      "result_dir": "results/fixed3_mr1_connected10_pcraft_20260722/connected_09/seed_17",
+      "protocol": "fixed_three_view_with_mirror_augmentation",
+      "structural_backend": "screening not requested in the audited geometry run"
+    },
+    {
+      "id": "mixed_2v_slender_detective_spider",
+      "family": "mixed",
+      "views": 2,
+      "evidence_origin": "new_run",
+      "result_dir": "results/viewcount_matrix_anime_ordinary_mixed_20260730/mixed_2v_slender_detective_spider",
+      "protocol": "mature_two_wall",
+      "structural_backend": "PINO-ranked selective voxel FEM"
+    },
+    {
+      "id": "mixed_2v_street_mecha_beetle",
+      "family": "mixed",
+      "views": 2,
+      "evidence_origin": "new_run",
+      "result_dir": "results/viewcount_matrix_anime_ordinary_mixed_20260730/mixed_2v_street_mecha_beetle",
+      "protocol": "mature_two_wall",
+      "structural_backend": "PINO-ranked selective voxel FEM"
+    },
+    {
+      "id": "mixed_3v_detective_spiderman_spider",
+      "family": "mixed",
+      "views": 3,
+      "evidence_origin": "historical_audited",
+      "result_dir": "results/fig4_slender_detective_multiview_v2_20260729",
+      "protocol": "isolated_v256_owned_multiview",
+      "structural_backend": "48^3 proxy emitted; structural replay not part of this geometry run"
+    },
+    {
+      "id": "mixed_3v_street_mecha_connected09",
+      "family": "mixed",
+      "views": 3,
+      "evidence_origin": "new_run",
+      "result_dir": "results/viewcount_matrix_anime_ordinary_mixed_20260730/mixed_3v_street_mecha_connected09",
+      "protocol": "isolated_v256_owned_multiview",
+      "structural_backend": "48^3 proxy emitted; structural replay deferred"
+    }
+  ],
+  "probes": [
+    {
+      "id": "anime_3v_bounded_repair",
+      "source_soft": "results/fig4_anime_fixed3_protocol_recheck_20260727/soft_training",
+      "result_dir": "results/viewcount_matrix_anime_ordinary_mixed_20260730/probes/anime_3v_bounded_repair"
+    },
+    {
+      "id": "ordinary_3v_bounded_repair",
+      "source_soft": "results/fig4_normal_beetle_parrot_eagle_pcraft_20260724/soft_training",
+      "result_dir": "results/viewcount_matrix_anime_ordinary_mixed_20260730/probes/ordinary_3v_bounded_repair"
+    },
+    {
+      "id": "mixed_3v_bounded_repair",
+      "source_soft": "results/fig4_slender_detective_soft_20260729/soft_training",
+      "result_dir": "results/viewcount_matrix_anime_ordinary_mixed_20260730/probes/mixed_3v_bounded_repair"
+    }
+  ],
+  "contribution_probes": [
+    {
+      "id": "anime_3v_projection_contribution",
+      "source_soft": "results/fig4_anime_fixed3_protocol_recheck_20260727/soft_training",
+      "result_dir": "results/viewcount_matrix_anime_ordinary_mixed_20260730/contribution_probes/anime_3v_projection_contribution"
+    },
+    {
+      "id": "ordinary_3v_projection_contribution",
+      "source_soft": "results/fig4_normal_beetle_parrot_eagle_pcraft_20260724/soft_training",
+      "result_dir": "results/viewcount_matrix_anime_ordinary_mixed_20260730/contribution_probes/ordinary_3v_projection_contribution"
+    },
+    {
+      "id": "mixed_3v_projection_contribution",
+      "source_soft": "results/fig4_slender_detective_soft_20260729/soft_training",
+      "result_dir": "results/viewcount_matrix_anime_ordinary_mixed_20260730/contribution_probes/mixed_3v_projection_contribution"
+    }
+  ]
+}

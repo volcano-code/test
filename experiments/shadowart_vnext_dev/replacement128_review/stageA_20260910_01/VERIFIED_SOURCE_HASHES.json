@@ -1,0 +1,4 @@
+{
+  "experiments/shadowart_vnext/replacement_paths.py": "30242cdfe0040ccb9c705c84f8ba61eea2b23bebec469ecc5a6d259a0878a9b4",
+  "tests/test_shadowart_vnext_component_replacement.py": "c470ff8b7f7147f41cc2a9f5632c7033a2732ea9c3f7ed18b48f50cfa4ff9356"
+}

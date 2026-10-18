@@ -1,0 +1,9 @@
+torch
+pytorch3d
+numpy
+matplotlib
+opencv-python
+imageio
+scikit-image
+tqdm
+trimesh

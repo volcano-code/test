@@ -1,0 +1,43 @@
+============================================================
+VOXEL RECONSTRUCTION METRICS
+============================================================
+
+Renderer Metrics
+Note: Renderer Model is the learned proxy volume; target quality should be read from Final Export Metrics.
+Mean IOU:  0.402986
+Mean DICE: 0.572484
+Min IOU:   0.329576
+Per-View IOUs:  0.332277, 0.428675, 0.433351, 0.329576, 0.436872, 0.457168
+Per-View DICEs: 0.498811, 0.600101, 0.604668, 0.495761, 0.608088, 0.627475
+
+Final Export Metrics
+Export Strategy: printable_minimal
+Export Resolution: 256
+Reconstructed Mesh Method: mcubes
+Reconstructed Mesh Sigma: 0.350
+Reconstructed Mesh Taubin Iterations: 2
+Reconstructed Mesh Upsample Factor: 2
+Mean IOU:  0.976982
+Mean DICE: 0.988280
+Per-View IOUs:  0.997807, 0.986709, 0.955269, 0.988428, 0.981636, 0.952044
+Per-View DICEs: 0.998902, 0.993310, 0.977123, 0.994180, 0.990733, 0.975433
+Occupied Voxels: 90877
+
+Renderer-Export Gap: 0.573996
+Teacher Agreement: 0.997286
+Joint Checkpoint Score: 0.595167
+
+Training Export Prior
+Prior Source: gt_prior
+Prior Mean IOU:  0.948122
+Prior Mean DICE: 0.973337
+Prior Components: 1
+Prior Occupied Voxels: 264898
+
+Normal Consistency: 0.220068
+
+Phase 1 Best IOU: 0.400953
+Phase 2 Best IOU: 0.400953
+Phase 3 Best IOU: 0.401919
+Phase 4 Best IOU: 0.402986
+Global Best IOU:  0.402986

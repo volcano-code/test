@@ -1,0 +1,8 @@
+{
+  "experiments/run_shadowart_vnext.py": "ef70b98798f0d0d63e1c13996ef19b7f03c20c1f3757cee50d991c6c80c3858c",
+  "experiments/shadowart_vnext/pipeline.py": "6be35a3021f65c617a8b584e91dca6432c5bb2990f88734550e5f6353f34dbea",
+  "experiments/shadowart_vnext/regional_candidates.py": "83770c8c7f670947a2f3c6ebaaea2800b52e91599bed486f828deafd24ecae41",
+  "experiments/shadowart_vnext/regional_geometry.py": "a8b91a1a5bd065e319fd5fc3e5f2d34b7de53df800af86cab19ebcc5f20010d8",
+  "experiments/shadowart_vnext_dev/run_body128_probe_20260909.py": "d75b82eaa3ced2d510faba29ee4845334aa376bcba3569a162f5db79e4ad2141",
+  "tests/test_shadowart_vnext_body_reinforcement.py": "9ffce9ce37bca3a8208cdbd82a7752f097af813a64b4381c1fc9e4232c2d60cb"
+}

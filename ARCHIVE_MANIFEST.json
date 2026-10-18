@@ -1,0 +1,2429 @@
+{
+  "source": "/home/lin/xvxinyao/P-CRAFT",
+  "source_kind": "current working directory; no Git history found",
+  "code_files": [
+    "structural/__init__.py",
+    "structural/analysis/__init__.py",
+    "structural/analysis/analysis/__init__.py",
+    "structural/analysis/analysis/fem_solver.py",
+    "structural/analysis/analysis/load_generator.py",
+    "structural/analysis/analysis/stress_eval.py",
+    "structural/analysis/analysis/vulnerability.py",
+    "structural/analysis/fem_solver.py",
+    "structural/analysis/load_generator.py",
+    "structural/analysis/stress_eval.py",
+    "structural/analysis/vulnerability.py",
+    "structural/configs/__init__.py",
+    "structural/configs/default.yaml",
+    "structural/configs/stage_c_pilot.yaml",
+    "structural/data/__init__.py",
+    "structural/data/generate_continuous_density_fem_dataset.py",
+    "structural/data/generate_fem_dataset.py",
+    "structural/detection/__init__.py",
+    "structural/detection/__main__.py",
+    "structural/detection/calibrate_thresholds.py",
+    "structural/detection/config.py",
+    "structural/detection/load_resolver.py",
+    "structural/detection/strength_detector.py",
+    "structural/experiments/__init__.py",
+    "structural/experiments/ablation.py",
+    "structural/experiments/baselines.py",
+    "structural/experiments/bound_verification.py",
+    "structural/experiments/convergence_analysis.py",
+    "structural/experiments/evaluate_metrics.py",
+    "structural/experiments/pino_validation.py",
+    "structural/experiments/plot_results.py",
+    "structural/experiments/prepare_data.py",
+    "structural/experiments/prepare_shapenet.py",
+    "structural/experiments/run_all_experiments.py",
+    "structural/experiments/run_evaluation.py",
+    "structural/experiments/run_experiment.py",
+    "structural/experiments/run_min_ablation_suite.py",
+    "structural/experiments/scalability.py",
+    "structural/export/__init__.py",
+    "structural/export/build_alignment_summary.py",
+    "structural/export/export_closed_loop_safe_obj.py",
+    "structural/export/export_fem_analysis_comparison.py",
+    "structural/export/export_mesh_fem_report.py",
+    "structural/export/optimize_safe_highres_remap.py",
+    "structural/export/printability_check.py",
+    "structural/export/remap_fem_repair_to_highres.py",
+    "structural/export/revoxelize_mesh_to_grid.py",
+    "structural/export/visualize_fem_hotspot_vs_repair.py",
+    "structural/export/voxel_to_mesh.py",
+    "structural/infill/__init__.py",
+    "structural/infill/infill_guidance.py",
+    "structural/mesh_fem/calibration.py",
+    "structural/mesh_fem/mesh_fem_solver.py",
+    "structural/models/__init__.py",
+    "structural/models/baselines.py",
+    "structural/models/calibrated_pino.py",
+    "structural/models/calibrated_pino_d23.py",
+    "structural/models/hr_pino.py",
+    "structural/models/load_model.py",
+    "structural/models/official_operator_baselines.py",
+    "structural/models/pino.py",
+    "structural/models/repair_cnn.py",
+    "structural/models/volume_model.py",
+    "structural/optimization/__init__.py",
+    "structural/optimization/alm_optimizer.py",
+    "structural/optimization/discrete_stage_c.py",
+    "structural/optimization/gradient_router.py",
+    "structural/optimization/safety_bound.py",
+    "structural/training/__init__.py",
+    "structural/training/analyze_fem_dataset_distribution.py",
+    "structural/training/build_pino_version_comparison.py",
+    "structural/training/monitor_pino_training.py",
+    "structural/training/pretrain_hr_pino.py",
+    "structural/training/pretrain_pino.py",
+    "structural/training/pretrain_pino_v2.py",
+    "structural/training/pretrain_pino_v3.py",
+    "structural/training/run_training_pipeline.py",
+    "structural/training/train_joint.py",
+    "structural/training/train_repair.py",
+    "scripts/make_sadekar_style_ours_cube_figure.py",
+    "scripts/render_shadowforge_blender_scenes.py",
+    "scripts/train_v26_shadowart_scale_sf.py",
+    "experiments/accs_ablation.py",
+    "experiments/accs_boost.py",
+    "experiments/accs_coverage_strat.py",
+    "experiments/accs_optshift_real.py",
+    "experiments/accs_verify_json.py",
+    "experiments/accs_verify_strict.py",
+    "experiments/acs_task_level_risk_coverage_20260711.py",
+    "experiments/acs_validity.py",
+    "experiments/add_fused_maple_plinth.py",
+    "experiments/add_only_pino_derived_outputs_20260719.py",
+    "experiments/aggregate_complex_fixed3_comparison_20260721.py",
+    "experiments/aggregate_fig5_geometry_with_cubify_20260719.py",
+    "experiments/aggregate_fixed3_mr1_challenge_20260721.py",
+    "experiments/aggregate_stratified_same_task_comparison_20260717.py",
+    "experiments/analyze_shadow_baseline_paired_20260730.py",
+    "experiments/analyze_soft_loss_v4_ablation10.py",
+    "experiments/analyze_soft_loss_v6_ablation10_256.py",
+    "experiments/analyze_soft_loss_v7.py",
+    "experiments/assemble_fixed_xyz_carve_anime_gallery_20260731.py",
+    "experiments/assemble_fixed_xyz_carve_anime_gallery_3_20260731.py",
+    "experiments/assemble_fixed_xyz_carve_new_anime_gallery_20260731.py",
+    "experiments/audit_all_best_experiment_candidates_20260708.py",
+    "experiments/audit_ant_dragon_shrimp_room_orientations_20260801.py",
+    "experiments/audit_canonical_projection_alignment_20260731.py",
+    "experiments/audit_domain_separated_near_boundary_gate.py",
+    "experiments/audit_exact4_physical_com_20260729.py",
+    "experiments/audit_hybrid_pino_logistic_gate.py",
+    "experiments/audit_inventory_natural_rest_com_20260729.py",
+    "experiments/audit_mondrian_safe_side_cal240.py",
+    "experiments/audit_physical_natural_rest_com_20260729.py",
+    "experiments/audit_physical_print_baselines_v3.py",
+    "experiments/audit_physical_print_pino_q48_20260730.py",
+    "experiments/audit_pino_safe_side_thresholds.py",
+    "experiments/audit_pino_union_safe_screen_20260708.py",
+    "experiments/audit_q48_cross_resolution_20260729.py",
+    "experiments/audit_q48_q256_cross_resolution_20260729.py",
+    "experiments/audit_sadekar_official_mesh_reprojection_20260728.py",
+    "experiments/audit_selector_policies_current_20260718.py",
+    "experiments/audit_str22_mesh_table1_20260707.py",
+    "experiments/audit_table2b_bridge_triggers_c48_20260727.py",
+    "experiments/audit_unified_hard_gate.py",
+    "experiments/audit_urban_allies_room_orientations_20260801.py",
+    "experiments/b1_fixed.py",
+    "experiments/b1_gen_aug.py",
+    "experiments/b2_finetune.py",
+    "experiments/b2b3_both.py",
+    "experiments/b3_retest.py",
+    "experiments/b4_alpha.py",
+    "experiments/batch96_printability.py",
+    "experiments/bind_soft_loss_v3_suites.py",
+    "experiments/bind_soft_loss_v4_suites.py",
+    "experiments/bind_soft_loss_v7_suites.py",
+    "experiments/build_aaai2027_fixed3_mr1_pending_20260722.py",
+    "experiments/build_anime30_diverse_fixed_10cm_256_20260707.py",
+    "experiments/build_anime30_diverse_fixed_50_60_10cm_256_20260707.py",
+    "experiments/build_anime30_humanoid_fixed_50_60_10cm_256_20260707.py",
+    "experiments/build_anime30_humanoid_no_beast_extra_fixed_50_60_10cm_256_20260707.py",
+    "experiments/build_anime30_humanoid_no_beast_fixed_50_60_10cm_256_20260707.py",
+    "experiments/build_anime30_top4_10cm_256_20260707.py",
+    "experiments/build_anime30_unique15_fixed_10cm_256_20260707.py",
+    "experiments/build_anime30_unique15_fixed_10cm_256_v2_20260707.py",
+    "experiments/build_anime30_unique15_fixed_10cm_256_v3_saving50_20260707.py",
+    "experiments/build_anime3_detail_perfect_gallery_20260731.py",
+    "experiments/build_anime3_detail_perfect_v2_20260731.py",
+    "experiments/build_anime3_freeform_complete_gallery_20260731.py",
+    "experiments/build_anime_archetype_12_10cm_256.py",
+    "experiments/build_anime_n2_fixed_display_10cm_256_20260709.py",
+    "experiments/build_anime_two_wall_fixed_no_floor_10cm_256_20260709.py",
+    "experiments/build_anime_two_wall_saving_no_floor_10cm_256_20260709.py",
+    "experiments/build_anime_two_wall_upright_saving_print_10cm_256_20260710.py",
+    "experiments/build_balanced_anime_fixed_10cm_256_20260708.py",
+    "experiments/build_balanced_pino_eval_index_20260720.py",
+    "experiments/build_boundary_yield250_index.py",
+    "experiments/build_complex_fixed3_benchmark_20260721.py",
+    "experiments/build_complex_v2_free_fixed_10cm_256.py",
+    "experiments/build_complex_v2_top4_10cm_256.py",
+    "experiments/build_controlled_benchmark_manifest_20260710.py",
+    "experiments/build_curated_symbolic_fixed_10cm_256.py",
+    "experiments/build_current_candidate_fullfield_fem_20260711.py",
+    "experiments/build_current_candidate_targeted_safe_manifest_20260708.py",
+    "experiments/build_dangerous_fem_v13_20260716.py",
+    "experiments/build_display_ready_10cm_256.py",
+    "experiments/build_fdm_self_supporting_two_wall_20260710.py",
+    "experiments/build_featured_distinctive_10cm_256_20260708.py",
+    "experiments/build_fig1_aaai2027_back_floor_assets_20260722.py",
+    "experiments/build_fig1_aaai_n2_10cm_256.py",
+    "experiments/build_fig1_overview_n2_10cm_256.py",
+    "experiments/build_fig4_anime_pool_20260723.py",
+    "experiments/build_fig4_blade_heroes_manifest_20260722.py",
+    "experiments/build_fig4_dual_pcraft_cases_20260724.py",
+    "experiments/build_fig4_mitra_corrected_20260729.py",
+    "experiments/build_fig4_orientation_contact_sheets_20260727.py",
+    "experiments/build_fig4_single_column_final_20260726.py",
+    "experiments/build_fig4_single_column_partial_20260725.py",
+    "experiments/build_fig4_table1_connected06_20260726.py",
+    "experiments/build_fig4_table1_connected06_soft_preview_20260726.py",
+    "experiments/build_fig4_table1_connected06_true_shadows_20260727.py",
+    "experiments/build_final_table_drafts_20260706.py",
+    "experiments/build_fixed3_author_tsf_manifest_20260716.py",
+    "experiments/build_fixed3_mr1_challenge_benchmark_20260721.py",
+    "experiments/build_fixed3_mr1_connected10_pending_20260722.py",
+    "experiments/build_missing_paper_tables_20260706.py",
+    "experiments/build_mitra_common_up_audit_20260729.py",
+    "experiments/build_mitra_shadow_hull_stress_suite.py",
+    "experiments/build_mitra_stratified_12_manifest_20260716.py",
+    "experiments/build_near_boundary_fem_hardcases_20260710.py",
+    "experiments/build_near_boundary_unsafe_fem_v12_20260716.py",
+    "experiments/build_new_anime30_named_fixed_10cm_256_20260707.py",
+    "experiments/build_new_anime30_named_fixed_10cm_256_v2_20260707.py",
+    "experiments/build_new_anime30_named_fixed_10cm_256_v3_20260707.py",
+    "experiments/build_nsa_style_12_10cm_256.py",
+    "experiments/build_nsa_style_complex_12_10cm_256.py",
+    "experiments/build_nsa_style_curated_12_10cm_256.py",
+    "experiments/build_objectlike_anime_fixed_10cm_256_20260708.py",
+    "experiments/build_operator_baseline_pilot_index.py",
+    "experiments/build_physical_print_baseline_manifest_20260715.py",
+    "experiments/build_projection_guarded_local_reinforcement.py",
+    "experiments/build_screened_anime_positive_fixed_10cm_256_20260709.py",
+    "experiments/build_simple_anime_fixed_10cm_256_20260708.py",
+    "experiments/build_split_dangerous_fem_20260720.py",
+    "experiments/build_support_safe_display_variant.py",
+    "experiments/build_task_disjoint_pino_union_v11_20260716.py",
+    "experiments/build_taskgrouped_decision_fem_dataset_20260711.py",
+    "experiments/build_two_wall_temporary_print_carriers_20260710.py",
+    "experiments/build_v21_taskmatched_balanced_sealed_eval.py",
+    "experiments/c1_final_benchmark.py",
+    "experiments/calibrate_mitra_fixed3_protocol_20260729.py",
+    "experiments/calibrate_soft_loss_v3.py",
+    "experiments/calibrate_soft_loss_v4.py",
+    "experiments/candidate_selection_batch.py",
+    "experiments/candidate_selection_batch_with_dice_100case_20260708.py",
+    "experiments/cert_matmin.py",
+    "experiments/certified_select.py",
+    "experiments/clean_outer_mesh_component.py",
+    "experiments/collect_all_silhouettes_for_review_20260714.py",
+    "experiments/compare_fig4_core_shell_vs_direct_v256_20260725.py",
+    "experiments/compare_table1_exact_rerun_20260725.py",
+    "experiments/complete_pcraft_pipeline_evidence_20260721.py",
+    "experiments/composite_original_model_into_clean_photo.py",
+    "experiments/compute_fixed3_dice_ssim_20260722.py",
+    "experiments/compute_fixed3_normalized_volume_20260722.py",
+    "experiments/compute_table2_selected_dice_100case_20260708.py",
+    "experiments/correct_upright_two_wall_saving_vertical_20260710.py",
+    "experiments/create_mitra_stratified_fixed3view_manifest.py",
+    "experiments/curate_balanced_nearboundary_fem_20260710.py",
+    "experiments/diagnose_fig4_mitra_orientations_20260727.py",
+    "experiments/draw_fig2_algorithm_pipeline_20260710.py",
+    "experiments/draw_fig2_algorithmic_sets_20260710.py",
+    "experiments/e1_verify.py",
+    "experiments/e4_verify.py",
+    "experiments/end_to_end_candidate_demo.py",
+    "experiments/evaluate_candidate_acs_variants.py",
+    "experiments/evaluate_candidate_pino_scaleup.py",
+    "experiments/evaluate_conditional_acs_v15_20260718.py",
+    "experiments/evaluate_controlled_benchmark_20260710.py",
+    "experiments/evaluate_field_acs_external.py",
+    "experiments/evaluate_fixed3_com_support_polygon_20260728.py",
+    "experiments/evaluate_fixed_xyz_carve_mesh_audit_20260801.py",
+    "experiments/evaluate_frozen_v29_taskgrouped_current_candidates_20260711.py",
+    "experiments/evaluate_legacy_highcoverage_pino_taskgrouped_20260711.py",
+    "experiments/evaluate_old_protocol_after_hardneg.py",
+    "experiments/evaluate_ordinary_two_view_com_20260729.py",
+    "experiments/evaluate_physical_print_baselines_20260715.py",
+    "experiments/evaluate_pino_component_ablations_20260720.py",
+    "experiments/evaluate_pino_ranked_fem_policy_20260720.py",
+    "experiments/evaluate_proxy_model_comparison_20260717.py",
+    "experiments/evaluate_raw_pino_fem_reduction_20260719.py",
+    "experiments/evaluate_stratified_sadekar_same_protocol_20260717.py",
+    "experiments/evaluate_strict_pino_acs_v5_20260713.py",
+    "experiments/evaluate_strict_pino_dualside_acs_20260717.py",
+    "experiments/evaluate_table3_pino_fem_policies_20260724.py",
+    "experiments/evaluate_taskdisjoint_five_model_comparator_20260717.py",
+    "experiments/evaluate_taskgrouped_pino_acs_20260711.py",
+    "experiments/evaluate_true_state_trajectory_replay_20260724.py",
+    "experiments/evaluate_v29_current_candidate_domain_20260709.py",
+    "experiments/evaluate_v29_ensemble_candidate_frozen.py",
+    "experiments/evaluate_v9_fixed_acs_external_hard450_20260718.py",
+    "experiments/evaluate_v9_shadowforge_pipeline_domain_20260718.py",
+    "experiments/exp5_benchmark.py",
+    "experiments/exp5plus_calib.py",
+    "experiments/exp5plus_gen.py",
+    "experiments/exp5plus_ood.py",
+    "experiments/explore_extended_material_thresholds_20260722.py",
+    "experiments/export_128_pipeline.py",
+    "experiments/export_256_pipeline.py",
+    "experiments/export_64_pipeline.py",
+    "experiments/export_96_pipeline.py",
+    "experiments/export_aaai_maple_material_variants.py",
+    "experiments/export_all_candidates.py",
+    "experiments/export_batch64.py",
+    "experiments/export_candidate_source_audit_20260710.py",
+    "experiments/export_cubify_visual_control.py",
+    "experiments/export_direct_v256_largest_body_20260725.py",
+    "experiments/export_diversity_n2.py",
+    "experiments/export_diversity_stl.py",
+    "experiments/export_fig4_mitra_canonical_xyz_stl_20260727.py",
+    "experiments/export_fixed_example.py",
+    "experiments/export_fixed_iconic.py",
+    "experiments/export_fixed_n3.py",
+    "experiments/export_fixed_top3.py",
+    "experiments/export_generic_candidate_for_inspection.py",
+    "experiments/export_multires.py",
+    "experiments/export_multires_nomin.py",
+    "experiments/export_print_trial_projection_panels_20260709.py",
+    "experiments/export_sadekar_connected06_projections_20260728.py",
+    "experiments/export_stl.py",
+    "experiments/export_stl_both.py",
+    "experiments/extend_pino_outputs_20260719.py",
+    "experiments/fem64.py",
+    "experiments/finalize_structural_evidence_20260718.py",
+    "experiments/finetune_raw_v29_anchor_boundary.py",
+    "experiments/finetune_raw_v29_boundary.py",
+    "experiments/finetune_raw_v29_boundary_rank.py",
+    "experiments/fixed3_from_two_wall_minimal_20260726/fill_cavities_and_sdf_remesh.py",
+    "experiments/fixed3_from_two_wall_minimal_20260726/run_fixed3_delivery.py",
+    "experiments/fixed3_from_two_wall_minimal_20260726/run_fixed3_mature_delivery.py",
+    "experiments/fixed_free_nullspace.py",
+    "experiments/fixed_pipeline.py",
+    "experiments/fixed_search.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/SOURCE_SHA256.txt",
+    "experiments/fixed_surface_xyz_isolated_20260726/audit_final_stl_tfs_20260727.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/audit_table1_reproduction.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/clean_single_shell_v256_20260727.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/experiments/build_anime_two_wall_upright_saving_print_10cm_256_20260710.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/experiments/candidate_selection_batch.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/generation/__init__.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/generation/datasets.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/generation/export_high_quality_mesh.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/generation/export_model_views.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/generation/losses.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/generation/models.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/generation/post_export.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/generation/requirements.txt",
+    "experiments/fixed_surface_xyz_isolated_20260726/generation/results/soft_full_loss_ablation_smoke_20260704/full/free/metrics_history.json",
+    "experiments/fixed_surface_xyz_isolated_20260726/generation/results/soft_full_loss_ablation_smoke_20260704/full/free/sample_0_metrics.txt",
+    "experiments/fixed_surface_xyz_isolated_20260726/generation/run_n2n3_tsf_mr_iter250_20260618.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/generation/safe_minimize.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/generation/train.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/generation/tsf_general.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/generation/utils.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/generation/voxel_ops.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/recover_v256_delivery_from_soft_20260727.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/run_all_baselines.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/run_archived_core48_replay.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/run_fixed3_minimal_extension_20260727.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/run_fixed3_single_shell_cleanup_20260727.sh",
+    "experiments/fixed_surface_xyz_isolated_20260726/run_fixed3_snapshot.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/scripts/make_sadekar_style_ours_cube_figure.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/scripts/render_shadowforge_blender_scenes.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/scripts/train_v26_shadowart_scale_sf.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/shadowforge_pipeline/__init__.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/shadowforge_pipeline/display_delivery.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/shadowforge_pipeline/fixed_surfaces.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/shadowforge_pipeline/pino_ranked_fem.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/shadowforge_pipeline/run.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/shadowforge_pipeline/unified_run.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/shadowforge_pipeline/v29_ensemble_screen.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/shadowforge_pipeline_snapshot/__init__.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/shadowforge_pipeline_snapshot/display_delivery.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/shadowforge_pipeline_snapshot/fixed_surfaces.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/shadowforge_pipeline_snapshot/pino_ranked_fem.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/shadowforge_pipeline_snapshot/run.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/shadowforge_pipeline_snapshot/unified_run.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/shadowforge_pipeline_snapshot/v29_ensemble_screen.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/__init__.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/analysis/__init__.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/analysis/analysis/__init__.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/analysis/analysis/fem_solver.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/analysis/analysis/load_generator.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/analysis/analysis/stress_eval.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/analysis/analysis/vulnerability.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/analysis/fem_solver.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/analysis/load_generator.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/analysis/stress_eval.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/analysis/vulnerability.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/configs/__init__.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/configs/default.yaml",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/configs/stage_c_pilot.yaml",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/data/__init__.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/data/generate_continuous_density_fem_dataset.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/data/generate_fem_dataset.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/detection/__init__.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/detection/__main__.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/detection/calibrate_thresholds.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/detection/config.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/detection/load_resolver.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/detection/strength_detector.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/experiments/__init__.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/experiments/ablation.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/experiments/baselines.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/experiments/bound_verification.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/experiments/convergence_analysis.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/experiments/evaluate_metrics.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/experiments/pino_validation.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/experiments/plot_results.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/experiments/prepare_data.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/experiments/prepare_shapenet.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/experiments/run_all_experiments.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/experiments/run_evaluation.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/experiments/run_experiment.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/experiments/run_min_ablation_suite.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/experiments/scalability.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/export/__init__.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/export/build_alignment_summary.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/export/export_closed_loop_safe_obj.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/export/export_fem_analysis_comparison.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/export/export_mesh_fem_report.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/export/optimize_safe_highres_remap.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/export/printability_check.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/export/remap_fem_repair_to_highres.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/export/revoxelize_mesh_to_grid.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/export/visualize_fem_hotspot_vs_repair.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/export/voxel_to_mesh.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/infill/__init__.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/infill/infill_guidance.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/mesh_fem/calibration.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/mesh_fem/mesh_fem_solver.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/models/__init__.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/models/baselines.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/models/calibrated_pino.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/models/calibrated_pino_d23.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/models/hr_pino.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/models/load_model.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/models/official_operator_baselines.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/models/pino.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/models/repair_cnn.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/models/volume_model.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/optimization/__init__.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/optimization/alm_optimizer.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/optimization/discrete_stage_c.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/optimization/gradient_router.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/optimization/safety_bound.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/training/__init__.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/training/analyze_fem_dataset_distribution.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/training/build_pino_version_comparison.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/training/monitor_pino_training.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/training/pretrain_hr_pino.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/training/pretrain_pino.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/training/pretrain_pino_v2.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/training/pretrain_pino_v3.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/training/run_training_pipeline.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/training/train_joint.py",
+    "experiments/fixed_surface_xyz_isolated_20260726/structural/training/train_repair.py",
+    "experiments/fixed_vs_free_iou.py",
+    "experiments/fixed_xyz_carve_branch_20260731_snapshot/run.py",
+    "experiments/full_pipeline_batch_2v3v_20260730/cases.json",
+    "experiments/full_pipeline_batch_2v3v_20260730/preflight.py",
+    "experiments/full_pipeline_batch_2v3v_20260730/run_batch.py",
+    "experiments/full_pipeline_batch_2v3v_20260730/summarize.py",
+    "experiments/fuse_two_wall_bases_voxel_20260710.py",
+    "experiments/gallery48_balance.py",
+    "experiments/gallery_final.py",
+    "experiments/gap_fill_stress_test.py",
+    "experiments/generate_anime_archetype_silhouettes_v1.py",
+    "experiments/generate_candidate_vm_fields.py",
+    "experiments/generate_complex_silhouettes_v1.py",
+    "experiments/generate_curated_symbolic_silhouettes_v1.py",
+    "experiments/generation_pipeline_ablation.py",
+    "experiments/harness/config.yaml",
+    "experiments/harness/out/decouple_gallery.json",
+    "experiments/harness/run_baselines.py",
+    "experiments/harness/scripts/auto_eval.py",
+    "experiments/harness/scripts/auto_real.py",
+    "experiments/harness/scripts/converge.py",
+    "experiments/harness/scripts/decouple_gallery.py",
+    "experiments/harness/scripts/gallery_density.py",
+    "experiments/harness/scripts/label_learn.py",
+    "experiments/harness/scripts/v26_optB.py",
+    "experiments/heroes_full_pipeline.py",
+    "experiments/launch_adventurer_schoolgirl_protocol_check_20260726.sh",
+    "experiments/make_controlled_benchmark_paper_artifacts_20260710.py",
+    "experiments/make_fig3_fig5_revision_20260710.py",
+    "experiments/make_geometry_ablation_artifacts_20260710.py",
+    "experiments/make_missing_experiment_layouts_20260713.py",
+    "experiments/make_paper_review_pack_20260704.py",
+    "experiments/make_pipeline_two_view_contact_sheet_20260713.py",
+    "experiments/make_urban_allies_orientation_contact_sheet_20260801.py",
+    "experiments/manifests/table1_exact_anime3_20260725.json",
+    "experiments/merge_pino_training_augmentation_20260716.py",
+    "experiments/mitra_baseline.py",
+    "experiments/mitra_pauly2009_shadow_hull.py",
+    "experiments/mondrian.py",
+    "experiments/multiview_contract_delivery_20260902.py",
+    "experiments/multiview_delivery_v2_20260728/diagnose_clean_geometry_owner.py",
+    "experiments/multiview_delivery_v2_20260728/run_multiview_delivery_v2.py",
+    "experiments/multiview_delivery_v2_20260728/simplify_print_shell.py",
+    "experiments/multiview_delivery_v2_20260728/sweep_clean_owner_regularization.py",
+    "experiments/multiview_delivery_v2_20260728/sweep_clean_owner_sdf.py",
+    "experiments/multiview_delivery_v3_20260730/run_projection_contribution_repair.py",
+    "experiments/multiview_export_adapter_20260830.py",
+    "experiments/multiview_native_delivery_20260905.py",
+    "experiments/nullspace_char.py",
+    "experiments/nullspace_diversity.py",
+    "experiments/nullspace_k.py",
+    "experiments/optimize_dual_acs_boundary_fem.py",
+    "experiments/optimize_raw_v29_acs.py",
+    "experiments/optimize_v29_mondrian_acs.py",
+    "experiments/organize_diversity.py",
+    "experiments/package_nsa_complex_fixed_required_10cm_256.py",
+    "experiments/package_nsa_fixed_required_10cm_256.py",
+    "experiments/package_nsa_refs_with_fig1_full_pipeline_10cm_256.py",
+    "experiments/package_nsa_refs_with_fig1_overview_n2_10cm_256.py",
+    "experiments/package_printsafe_display_kit.py",
+    "experiments/package_shadowart_ref_10cm_256.py",
+    "experiments/pino_accs_dual_screen.py",
+    "experiments/pino_accs_evaluation.py",
+    "experiments/pino_accs_runtime.py",
+    "experiments/pino_proxy_comparison_20260711.py",
+    "experiments/plot_balanced_acs_diagnostic_20260719.py",
+    "experiments/plot_dark_knight_material_trajectory_20260723.py",
+    "experiments/plot_fig5_pino_capability_budget_20260721.py",
+    "experiments/plot_fig5_pino_fem_pareto_20260720.py",
+    "experiments/plot_fig5_task_disjoint_acs.py",
+    "experiments/plot_fig6_idealized_acs_target_20260719.py",
+    "experiments/plot_fig6_raw_pino_fem_reduction_20260719.py",
+    "experiments/plot_fig6_structural_triage_bars_20260719.py",
+    "experiments/plot_idealized_zero_false_safe_target_20260719.py",
+    "experiments/prepare_anime_silhouettes_black_bg_20260714.py",
+    "experiments/prepare_ant_dragon_shrimp_physical_consistent_20260801.py",
+    "experiments/prepare_current_pipeline_assets_20260718.py",
+    "experiments/prepare_fig4_connected06_display_meshes.py",
+    "experiments/prepare_paper_experiment_evidence_20260715.py",
+    "experiments/prepare_pino_comparator_v7.py",
+    "experiments/prepare_pipeline_reference_assets.py",
+    "experiments/prepare_supp_gallery_ant_dragon_shrimp_20260801.py",
+    "experiments/prepare_table2_anime_fixed3_20260722.py",
+    "experiments/print5_deliver48.py",
+    "experiments/print5_gapfill256.py",
+    "experiments/print5_highiou.py",
+    "experiments/print5_origres.py",
+    "experiments/print5_via_pipeline.py",
+    "experiments/probe_controlled_replacement_20260710.py",
+    "experiments/rebuild_fig1_n2_full_pipeline_10cm_256.py",
+    "experiments/rebuild_positive_shadow_sculpture_10cm_256_20260708.py",
+    "experiments/rebuild_print_10cm_256_clear.py",
+    "experiments/rebuild_table2_selector_policy_100case_20260708.py",
+    "experiments/recalibrate_candidate_acs.py",
+    "experiments/recompute_soft_res256_export_projection_metrics.py",
+    "experiments/recompute_table2_delivered_256_iou_dice_20260708.py",
+    "experiments/reconstruct_raw_pino_false_safe_delivery_20260730.py",
+    "experiments/recovery_july22_fixed3_20260729/run_principal_body_replay.py",
+    "experiments/recovery_july22_fixed3_20260729/run_projection_envelope_replay.py",
+    "experiments/recovery_july22_fixed3_20260729/run_recovered_delivery.py",
+    "experiments/recovery_july22_fixed3_20260729/run_unified_kview_july22.py",
+    "experiments/recovery_legacy_fixed3_20260729/render_bridge_py310.py",
+    "experiments/recovery_legacy_fixed3_20260729/sadekar_protocol.py",
+    "experiments/recovery_legacy_fixed3_20260729/sitecustomize.py",
+    "experiments/refine_paper_figures_20260727.py",
+    "experiments/render_ant_dragon_shrimp_left_shrimp_right_ant_floor_dragon_20260801.pre_orientation_fix.py",
+    "experiments/render_ant_dragon_shrimp_left_shrimp_right_ant_floor_dragon_20260801.py",
+    "experiments/render_fig3_raw_local_preview_20260716.py",
+    "experiments/render_fig4_anime_corner_blender_20260726.py",
+    "experiments/render_fig4_connected06_blender.py",
+    "experiments/render_fig4_connected06_blender_true_shadows_20260727.py",
+    "experiments/render_fig4_method_orientations_all48_20260727.py",
+    "experiments/render_fig4_sadekar_official_true_shadows_20260728.py",
+    "experiments/render_final_pipeline_figure.py",
+    "experiments/render_fixed_xyz_carve_mesh_audit_20260801.py",
+    "experiments/render_gallery_axis_candidates_20260801.py",
+    "experiments/render_ideal_experiment_previews_20260715.py",
+    "experiments/render_inspection_stl.py",
+    "experiments/render_mitra_native_axes_sadekar_style_20260729.py",
+    "experiments/render_nsa_style_two_wall_simulation_20260711.py",
+    "experiments/render_pino_soft_ablation_results_20260721.py",
+    "experiments/render_qualityfirst_two_wall_blender_20260710.py",
+    "experiments/render_sadekar_official_obj_projection_audit_20260728.py",
+    "experiments/render_shadowforge_pipeline_okabe_ito_20260713.py",
+    "experiments/render_shadowforge_pipeline_two_view_local_20260713.py",
+    "experiments/render_supp_gallery_arcane_casters_20260801.py",
+    "experiments/render_supp_gallery_dark_mage_samurai_20260801.py",
+    "experiments/render_supp_gallery_diverse5_20260801.py",
+    "experiments/render_supp_gallery_final_simulations_20260801.py",
+    "experiments/render_supp_gallery_mesh_views_four_cases_20260801.py",
+    "experiments/render_supp_gallery_parrot_snail_20260801.py",
+    "experiments/render_supp_gallery_simulations_four_cases_centered_20260801.py",
+    "experiments/render_supp_gallery_simulations_restored_20260801.py",
+    "experiments/render_supp_gallery_simulations_unified_20260801.py",
+    "experiments/render_supp_gallery_tsf1_anime_20260801.py",
+    "experiments/render_supp_gallery_urban_allies_20260801.py",
+    "experiments/repair_authoritative_delivery_mesh_parts_20260707.py",
+    "experiments/repair_fig2_corner_and_evidence_v2_20260728.py",
+    "experiments/repair_fig2_square_panels_and_evidence_20260728.py",
+    "experiments/repair_fig2_stage2_rays_20260728.py",
+    "experiments/repair_generic_delivery_candidate.py",
+    "experiments/reproduce_structshadow_g5_pcraft_20260730.py",
+    "experiments/rerun_controlled_shadowforge_fixed_20260710.py",
+    "experiments/rerun_failed_shadowforge_repairs_20260720.py",
+    "experiments/rerun_fig3a_sadekar_mesh_voxel_20260710.py",
+    "experiments/rescore_task_triples_best_pino_20260711.py",
+    "experiments/reselect_two_wall_delivered_proxy_fem_20260711.py",
+    "experiments/reselect_two_wall_fdm_aware_10cm_256_20260710.py",
+    "experiments/retouch_physical_photo_locked_box_cleanup.py",
+    "experiments/retouch_physical_photo_locked_evidence.py",
+    "experiments/retouch_physical_photo_smooth_platform.py",
+    "experiments/run_aaai_maple_balanced_reinforcement_sdf_20260723.sh",
+    "experiments/run_aaai_maple_dark_knight_legacy_20260722.sh",
+    "experiments/run_aaai_maple_physical_print_20260722.sh",
+    "experiments/run_aaai_maple_printsafe_display_20260722.sh",
+    "experiments/run_anime30_latest_mitra_sadekar_baselines_20260707.py",
+    "experiments/run_anime_full_pipeline_2v2_3v2_20260723.sh",
+    "experiments/run_archetype_authoritative_v29_48_256_20260707.py",
+    "experiments/run_authoritative_delivery_geometry_ablation_20260710.py",
+    "experiments/run_balanced_anime_strict_v29_48_256_20260707.py",
+    "experiments/run_batch_baselines_fem_backed.py",
+    "experiments/run_both_and_select.py",
+    "experiments/run_bridge_delivery_ablation_dark_knight_20260723.sh",
+    "experiments/run_candidate_pino_field_background.sh",
+    "experiments/run_connected06_boundary_material_trajectory_20260723.sh",
+    "experiments/run_connected06_pino_closed_loop_pilot_20260723.py",
+    "experiments/run_controlled_baselines_20260710.py",
+    "experiments/run_current_candidate_physics_pino_20260711.sh",
+    "experiments/run_current_candidate_physics_pino_stable_20260711.sh",
+    "experiments/run_dangerous_fem_v13_20260716.sh",
+    "experiments/run_dark_knight_pino_carve_stopping_pilot_20260721.sh",
+    "experiments/run_download_anime_strict_v29_48_256_20260707.py",
+    "experiments/run_effective_geometry_module_pilot_ablations_20260714.sh",
+    "experiments/run_effective_soft_proposal_pilot_ablations_20260714.sh",
+    "experiments/run_fem_two_wall_candidate_search_20260714.sh",
+    "experiments/run_fig1_symbol_pairs_20260722.sh",
+    "experiments/run_fig4_anime_pcraft_final_fixed3_pino_20260725.sh",
+    "experiments/run_fig4_anime_pcraft_fullpool_pino_20260725.sh",
+    "experiments/run_fig4_anime_pool_20260723.sh",
+    "experiments/run_fig4_anime_table1path_pino_20260725.sh",
+    "experiments/run_fig4_anime_table1path_pino_quick_20260725.sh",
+    "experiments/run_fig4_blade_heroes_fixed3_mr1_20260722.sh",
+    "experiments/run_fig4_curated_original_queue_20260724.sh",
+    "experiments/run_fig4_curated_parallel_queue_20260724.sh",
+    "experiments/run_fig4_slender_detective_multiview_v2_20260729.sh",
+    "experiments/run_fig4_soft_to_mesh_conversion_20260717.py",
+    "experiments/run_fig4_threeview_protocol_unified_20260725.sh",
+    "experiments/run_five_model_then_soft_stability_20260718.sh",
+    "experiments/run_fixed3_author_tsf_baselines_20260716.py",
+    "experiments/run_fixed3_mr1_challenge_all_20260721.sh",
+    "experiments/run_fixed3_mr1_connected10_all_20260722.sh",
+    "experiments/run_fixed3_mr1_shadowforge_20260721.py",
+    "experiments/run_fixed3_mr1_shadowforge_20260721.v256_owner_20260726.bak.py",
+    "experiments/run_fixed_xyz_carve_anime_gallery_3_20260731.sh",
+    "experiments/run_fixed_xyz_carve_anime_gallery_3_final_20260731.sh",
+    "experiments/run_fixed_xyz_carve_new_anime_gallery_20260731.sh",
+    "experiments/run_formal_material_trajectory_fixed3_20260722.sh",
+    "experiments/run_general_n23.py",
+    "experiments/run_geometry_alternatives_ablation_20260710.py",
+    "experiments/run_geometry_module_ablations_matched_v1_20260716.sh",
+    "experiments/run_h02_pino_carve_stopping_boundary_20260721.sh",
+    "experiments/run_heroes_best.py",
+    "experiments/run_heroes_geom.py",
+    "experiments/run_heroes_loss_protocol_probe_20260906.sh",
+    "experiments/run_heroes_three_pipelines_20260830.sh",
+    "experiments/run_joint_view_formal_20260727.sh",
+    "experiments/run_joint_view_quick_audit_20260727.sh",
+    "experiments/run_mesh8_voxel_reparameterization_pilot_20260711.py",
+    "experiments/run_mesh_combined2_full_loss_ablation_20260711.py",
+    "experiments/run_mesh_combined2_soft_ablation_20260706.py",
+    "experiments/run_mitra256_repro_20260706.py",
+    "experiments/run_mitra_pauly2009_fixed3view_suite.py",
+    "experiments/run_mitra_stratified_manifest_20260719.py",
+    "experiments/run_new_anime30_authoritative_48_256_20260707.py",
+    "experiments/run_official_operator_formal_20260723.sh",
+    "experiments/run_official_operator_pilots_20260723.sh",
+    "experiments/run_old_anime30_authoritative_v29_48_256_20260707.py",
+    "experiments/run_ordinary_two_view_rebuild_com_20260729.py",
+    "experiments/run_physical_print_baselines_20260715.py",
+    "experiments/run_pino_carve_stopping_20260720.sh",
+    "experiments/run_pino_comparator_v7_20260716.sh",
+    "experiments/run_pino_comparator_v9_protocol_20260716.sh",
+    "experiments/run_pino_component_ablations_20260720.sh",
+    "experiments/run_pino_decision_aware_1000case_20260709.sh",
+    "experiments/run_pino_decision_aware_400case_train_20260709.sh",
+    "experiments/run_pino_decision_aware_search_20260704.sh",
+    "experiments/run_pino_decision_background.sh",
+    "experiments/run_pino_near_boundary_safe_margin_search_20260704.sh",
+    "experiments/run_pino_proxy_comparison_20260711.sh",
+    "experiments/run_pino_safe_accept_90_search_20260704.sh",
+    "experiments/run_pino_safe_margin_light_search_20260704.sh",
+    "experiments/run_pino_stratified_rank_80epoch_20260709.sh",
+    "experiments/run_pino_v15_then_five_model_queue_20260717.sh",
+    "experiments/run_queued_pino_soft_pilots_20260721.sh",
+    "experiments/run_remaining_paper_experiments_20260716.sh",
+    "experiments/run_sadekar_original_table1_20260705.py",
+    "experiments/run_safe_minimize.py",
+    "experiments/run_shadowart_fidelity_probe.py",
+    "experiments/run_shadowart_manufacturing_20260905.py",
+    "experiments/run_shadowart_vnext.py",
+    "experiments/run_soft_code_loss_ablations_20260713.sh",
+    "experiments/run_soft_delivery_component_ablations_20260713.sh",
+    "experiments/run_soft_full_missing_ablations.py",
+    "experiments/run_soft_loss_v2.py",
+    "experiments/run_soft_loss_v3.py",
+    "experiments/run_soft_loss_v4_ablation10.py",
+    "experiments/run_soft_loss_v5_quick_ablation.py",
+    "experiments/run_soft_loss_v6_ablation10_256.py",
+    "experiments/run_soft_loss_v7_hit_barrier_256.py",
+    "experiments/run_soft_novel_loss_ablations_v3_20260715.sh",
+    "experiments/run_soft_projection_loss_ablation_20260720.sh",
+    "experiments/run_soft_stage_loss_ablations_20260715.sh",
+    "experiments/run_soft_tsf1_mr1_heroes_ablation_20260717.sh",
+    "experiments/run_stage_c_batch.py",
+    "experiments/run_stratified_shadowforge_same_tasks_20260717.py",
+    "experiments/run_stratified_shadowforge_same_tasks_unified_20260718.py",
+    "experiments/run_strict_physics_pino_v11_20260716.sh",
+    "experiments/run_strict_physics_pino_v13_20260717.sh",
+    "experiments/run_strict_physics_pino_v14_false_safe_20260717.sh",
+    "experiments/run_strict_physics_pino_v15_tail_20260717.sh",
+    "experiments/run_strict_physics_pino_v16_shadowart_scale_20260718.sh",
+    "experiments/run_strict_physics_pino_v17_safe90_20260718.sh",
+    "experiments/run_strict_physics_pino_v18_recover_unsafe_20260719.sh",
+    "experiments/run_supplemental_experiments_queue_20260718.sh",
+    "experiments/run_table1_connected01_success_path_reuse_20260726.sh",
+    "experiments/run_table1_exact_reproduction_no_pino_20260725.sh",
+    "experiments/run_table1_mitra_sadekar_shadowforge_20260705.py",
+    "experiments/run_table2_two_stage_pilot_20260722.sh",
+    "experiments/run_table2a_anime_fixed3_pilot_128_20260723.sh",
+    "experiments/run_table2a_anime_fixed3_pilot_20260722.sh",
+    "experiments/run_table2a_loss_only_formal_20260727.sh",
+    "experiments/run_table2b_bridge_trigger_audit_20260727.sh",
+    "experiments/run_task_grouped_acs_after_proxy_comparison_20260711.sh",
+    "experiments/run_taskdisjoint_five_model_comparator_20260717.sh",
+    "experiments/run_true_state_trajectory_replay_20260724.sh",
+    "experiments/run_v13_export_printability_check_20260705.py",
+    "experiments/run_v13_soft_ablation_printability_20260705.py",
+    "experiments/run_v13_soft_ablation_printability_33rows_20260705.py",
+    "experiments/run_v13_soft_ablation_printability_33rows_res256_20260705.py",
+    "experiments/run_v13_soft_loss_ablation_20260705.py",
+    "experiments/run_v13_soft_ready_component_ablation.py",
+    "experiments/scaleup_char.py",
+    "experiments/scaleup_gen.py",
+    "experiments/screen_anime30_adjusted_full_20260704.py",
+    "experiments/screen_anime30_unique15_no_beast_48_20260707.py",
+    "experiments/screen_anime30_unique15_no_beast_48_iouonly_20260707.py",
+    "experiments/screen_anime30_unique15_no_beast_48_quiet_20260707.py",
+    "experiments/screen_anime_topology_friendly_fixed3.py",
+    "experiments/screen_distinct_anime_silhouettes_20260709.py",
+    "experiments/screen_new_anime30_named_groups_128_20260707.py",
+    "experiments/screen_new_anime30_replacement_groups_128_20260707.py",
+    "experiments/screen_new_anime30_replacement_groups_256_20260707.py",
+    "experiments/screen_replacement_unique15_fixed_128_20260707.py",
+    "experiments/screen_selected_delivery_frozen_pino_acs.py",
+    "experiments/screen_structure_friendly_anime_silhouettes_20260709.py",
+    "experiments/search_anime3_detail_compatible_20260731.py",
+    "experiments/search_balanced_anime_fixed_candidates_20260708.py",
+    "experiments/select_fig4_eligible_case_20260723.py",
+    "experiments/select_fig4_fixed3_mr1_evidence_20260721.py",
+    "experiments/select_high_saving_table1_candidates_20260707.py",
+    "experiments/select_policy.py",
+    "experiments/shadowart_manufacturing_20260905.py",
+    "experiments/shadowart_vnext/__init__.py",
+    "experiments/shadowart_vnext/ablation.py",
+    "experiments/shadowart_vnext/artifacts.py",
+    "experiments/shadowart_vnext/cell_boundary.py",
+    "experiments/shadowart_vnext/component_replacement.py",
+    "experiments/shadowart_vnext/continuation_projection.py",
+    "experiments/shadowart_vnext/continuous_surface.py",
+    "experiments/shadowart_vnext/contracts.py",
+    "experiments/shadowart_vnext/delivery.py",
+    "experiments/shadowart_vnext/demand_replacement.py",
+    "experiments/shadowart_vnext/entity_projection.py",
+    "experiments/shadowart_vnext/fidelity_probe.py",
+    "experiments/shadowart_vnext/finalize.py",
+    "experiments/shadowart_vnext/geometry.py",
+    "experiments/shadowart_vnext/handoff.py",
+    "experiments/shadowart_vnext/joint_geometry.py",
+    "experiments/shadowart_vnext/layout.py",
+    "experiments/shadowart_vnext/losses.py",
+    "experiments/shadowart_vnext/manufacturing.py",
+    "experiments/shadowart_vnext/material_relocation.py",
+    "experiments/shadowart_vnext/metrics.py",
+    "experiments/shadowart_vnext/pipeline.py",
+    "experiments/shadowart_vnext/projection_ceiling.py",
+    "experiments/shadowart_vnext/provenance.py",
+    "experiments/shadowart_vnext/ray_closure.py",
+    "experiments/shadowart_vnext/ray_demand.py",
+    "experiments/shadowart_vnext/ray_ledger.py",
+    "experiments/shadowart_vnext/ray_restore.py",
+    "experiments/shadowart_vnext/regional_candidates.py",
+    "experiments/shadowart_vnext/regional_geometry.py",
+    "experiments/shadowart_vnext/regional_solver.py",
+    "experiments/shadowart_vnext/relocation_proposals.py",
+    "experiments/shadowart_vnext/rendering.py",
+    "experiments/shadowart_vnext/replacement_paths.py",
+    "experiments/shadowart_vnext/rooted_core.py",
+    "experiments/shadowart_vnext/rooted_core_early.py",
+    "experiments/shadowart_vnext/rooted_core_probe.py",
+    "experiments/shadowart_vnext/slicer.py",
+    "experiments/shadowart_vnext/training.py",
+    "experiments/shadowart_vnext_dev/body128_review/postchange_20260909_01/VERIFIED_SOURCE_HASHES.json",
+    "experiments/shadowart_vnext_dev/body128_review/postchange_20260909_01/experiments/run_body128_probe_20260909.py",
+    "experiments/shadowart_vnext_dev/body128_review/postchange_20260909_01/experiments/run_shadowart_vnext.py",
+    "experiments/shadowart_vnext_dev/body128_review/postchange_20260909_01/experiments/shadowart_vnext/pipeline.py",
+    "experiments/shadowart_vnext_dev/body128_review/postchange_20260909_01/experiments/shadowart_vnext/regional_candidates.py",
+    "experiments/shadowart_vnext_dev/body128_review/postchange_20260909_01/experiments/shadowart_vnext/regional_geometry.py",
+    "experiments/shadowart_vnext_dev/body128_review/postchange_20260909_01/tests/test_shadowart_vnext_body_reinforcement.py",
+    "experiments/shadowart_vnext_dev/body128_review/prechange_20260909_01/experiments/run_shadowart_vnext.py",
+    "experiments/shadowart_vnext_dev/body128_review/prechange_20260909_01/experiments/shadowart_vnext/pipeline.py",
+    "experiments/shadowart_vnext_dev/body128_review/prechange_20260909_01/experiments/shadowart_vnext/regional_candidates.py",
+    "experiments/shadowart_vnext_dev/body128_review/prechange_20260909_01/experiments/shadowart_vnext/regional_geometry.py",
+    "experiments/shadowart_vnext_dev/body128_review/prechange_20260909_01/tests/test_shadowart_vnext_regional_geometry.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task1_p2_prefix_20260908_01/experiments/shadowart_vnext/artifacts.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task1_p2_prefix_20260908_01/tests/test_shadowart_vnext_initialization.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task1_prechange_20260908_01/experiments/run_shadowart_vnext.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task1_prechange_20260908_01/experiments/shadowart_vnext/artifacts.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task1_prechange_20260908_01/experiments/shadowart_vnext/pipeline.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task1_prechange_20260908_01/experiments/shadowart_vnext/training.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task3_postchange_20260908_01/artifacts.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task3_postchange_20260908_01/continuation_projection.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task3_postchange_20260908_01/pipeline.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task3_postchange_20260908_01/run_shadowart_vnext.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task3_postchange_20260908_01/test_shadowart_vnext_continuation.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task3_postchange_20260908_01/training.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task3_prechange_20260908_01/artifacts.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task3_prechange_20260908_01/pipeline.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task3_prechange_20260908_01/run_shadowart_vnext.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task3_prechange_20260908_01/training.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task4_postchange_20260908_01/POSTCHANGE_SHA256.txt",
+    "experiments/shadowart_vnext_dev/continuation128_review/task4_postchange_20260908_01/REPORT_SHA256.txt",
+    "experiments/shadowart_vnext_dev/continuation128_review/task4_postchange_20260908_01/experiments/run_shadowart_fidelity_probe.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task4_postchange_20260908_01/experiments/run_shadowart_vnext.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task4_postchange_20260908_01/experiments/shadowart_vnext/delivery.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task4_postchange_20260908_01/experiments/shadowart_vnext/fidelity_probe.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task4_postchange_20260908_01/experiments/shadowart_vnext/finalize.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task4_postchange_20260908_01/experiments/shadowart_vnext/pipeline.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task4_postchange_20260908_01/tests/test_shadowart_vnext_continuous_delivery.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task4_prechange_20260908_01/PRECHANGE_SHA256.txt",
+    "experiments/shadowart_vnext_dev/continuation128_review/task4_prechange_20260908_01/experiments/run_shadowart_fidelity_probe.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task4_prechange_20260908_01/experiments/run_shadowart_vnext.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task4_prechange_20260908_01/experiments/shadowart_vnext/delivery.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task4_prechange_20260908_01/experiments/shadowart_vnext/fidelity_probe.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task4_prechange_20260908_01/experiments/shadowart_vnext/finalize.py",
+    "experiments/shadowart_vnext_dev/continuation128_review/task4_prechange_20260908_01/experiments/shadowart_vnext/pipeline.py",
+    "experiments/shadowart_vnext_dev/replacement128_review/demand_20260912_01/VERIFIED_SOURCE_HASHES.json",
+    "experiments/shadowart_vnext_dev/replacement128_review/demand_20260912_01/experiments/shadowart_vnext/demand_replacement.py",
+    "experiments/shadowart_vnext_dev/replacement128_review/demand_20260912_01/experiments/shadowart_vnext/ray_demand.py",
+    "experiments/shadowart_vnext_dev/replacement128_review/demand_20260912_01/experiments/shadowart_vnext_dev/run_demand128_probe_20260912.py",
+    "experiments/shadowart_vnext_dev/replacement128_review/demand_20260912_01/tests/test_shadowart_vnext_ray_demand.py",
+    "experiments/shadowart_vnext_dev/replacement128_review/postchange_20260910_01/VERIFIED_SOURCE_HASHES.json",
+    "experiments/shadowart_vnext_dev/replacement128_review/postchange_20260910_01/experiments/shadowart_vnext/component_replacement.py",
+    "experiments/shadowart_vnext_dev/replacement128_review/postchange_20260910_01/experiments/shadowart_vnext/replacement_paths.py",
+    "experiments/shadowart_vnext_dev/replacement128_review/postchange_20260910_01/experiments/shadowart_vnext_dev/run_replacement128_probe_20260910.py",
+    "experiments/shadowart_vnext_dev/replacement128_review/postchange_20260910_01/tests/test_shadowart_vnext_component_replacement.py",
+    "experiments/shadowart_vnext_dev/replacement128_review/stageA_20260910_01/VERIFIED_SOURCE_HASHES.json",
+    "experiments/shadowart_vnext_dev/replacement128_review/stageA_20260910_01/experiments/shadowart_vnext/replacement_paths.py",
+    "experiments/shadowart_vnext_dev/replacement128_review/stageA_20260910_01/tests/test_shadowart_vnext_component_replacement.py",
+    "experiments/shadowart_vnext_dev/replacement128_review/stageB_20260912_01/VERIFIED_SOURCE_HASHES.json",
+    "experiments/shadowart_vnext_dev/replacement128_review/stageB_20260912_01/experiments/shadowart_vnext/material_relocation.py",
+    "experiments/shadowart_vnext_dev/replacement128_review/stageB_20260912_01/experiments/shadowart_vnext/ray_ledger.py",
+    "experiments/shadowart_vnext_dev/replacement128_review/stageB_20260912_01/experiments/shadowart_vnext/relocation_proposals.py",
+    "experiments/shadowart_vnext_dev/replacement128_review/stageB_20260912_01/experiments/shadowart_vnext_dev/run_relocation128_probe_20260912.py",
+    "experiments/shadowart_vnext_dev/replacement128_review/stageB_20260912_01/tests/test_shadowart_vnext_material_relocation.py",
+    "experiments/shadowart_vnext_dev/replacement128_review/stageB_20260912_01/tests/test_shadowart_vnext_ray_ledger.py",
+    "experiments/shadowart_vnext_dev/rooted_core_early_review_20260912/FINAL_VERIFICATION.json",
+    "experiments/shadowart_vnext_dev/rooted_core_review_20260912/FINAL_VERIFICATION.json",
+    "experiments/shadowart_vnext_dev/run_body128_probe_20260909.py",
+    "experiments/shadowart_vnext_dev/run_demand128_probe_20260912.py",
+    "experiments/shadowart_vnext_dev/run_relocation128_probe_20260912.py",
+    "experiments/shadowart_vnext_dev/run_replacement128_probe_20260910.py",
+    "experiments/shadowart_vnext_dev/run_rooted_core_early_20260912.py",
+    "experiments/shadowart_vnext_dev/run_rooted_core_probe_20260912.py",
+    "experiments/shadowart_vnext_dev/sadekar_clean_128_20260908_p56cLY/voxel/datasets.py",
+    "experiments/shadowart_vnext_dev/sadekar_clean_128_20260908_p56cLY/voxel/losses.py",
+    "experiments/shadowart_vnext_dev/sadekar_clean_128_20260908_p56cLY/voxel/models.py",
+    "experiments/shadowart_vnext_dev/sadekar_clean_128_20260908_p56cLY/voxel/utills.py",
+    "experiments/shadowart_vnext_dev/sadekar_clean_128_20260908_p56cLY/voxel/val.py",
+    "experiments/shadowart_vnext_dev/sadekar_clean_128_20260908_p56cLY/voxel_results/heroes_native128_author2000/log.txt",
+    "experiments/shadowart_vnext_dev/sadekar_clean_128_20260908_p56cLY/voxel_results/heroes_native128_author600/log.txt",
+    "experiments/simplify_fixed_two_wall_targets.py",
+    "experiments/simplify_printable_silhouettes.py",
+    "experiments/slender_detective_soft_refine_20260729/train_fp_refine.py",
+    "experiments/smooth_fem_truth.py",
+    "experiments/snapshots/structshadow_multiview_20260731_005313/SHA256SUMS.txt",
+    "experiments/snapshots/structshadow_multiview_20260731_005313/SOURCE_ARTIFACT_SHA256.txt",
+    "experiments/snapshots/structshadow_multiview_20260731_005313/pcraft/reproduce_structshadow_g5_pcraft_20260730.py",
+    "experiments/snapshots/structshadow_multiview_20260731_005313/pcraft/voxel_ops.py",
+    "experiments/snapshots/structshadow_multiview_20260731_005313/structshadow/export_diversity_stl.py",
+    "experiments/snapshots/structshadow_multiview_20260731_005313/structshadow/run_general_n23.py",
+    "experiments/snapshots/structshadow_multiview_20260731_005313/structshadow/tsf_general.py",
+    "experiments/snapshots/structshadow_multiview_20260731_005313/structshadow/voxel_ops.py",
+    "experiments/soft_branch_ablation.py",
+    "experiments/soft_branch_ablation_full_config.py",
+    "experiments/soft_loss_v3_registry.py",
+    "experiments/soft_loss_v3_statistics.py",
+    "experiments/soft_loss_v4_registry.py",
+    "experiments/soft_to_geometry_postprocess_20260707.py",
+    "experiments/solve123.py",
+    "experiments/solve123_verify.py",
+    "experiments/strict_real.py",
+    "experiments/structshadow_integration_20260731/backups/pre_nested_fidelity_gate_20260731/run_anime3_integrated.py",
+    "experiments/structshadow_integration_20260731/backups/pre_saving_gate_20260731/run_anime3_integrated.py",
+    "experiments/structshadow_integration_20260731/replay_nested_saving_gate.py",
+    "experiments/structshadow_integration_20260731/run_anime3_integrated.py",
+    "experiments/structshadow_integration_20260731/structshadow_snapshot/__init__.py",
+    "experiments/structshadow_integration_20260731/structshadow_snapshot/datasets.py",
+    "experiments/structshadow_integration_20260731/structshadow_snapshot/tsf_general.py",
+    "experiments/structshadow_integration_20260731/structshadow_snapshot/voxel_ops.py",
+    "experiments/summarize_bridge_delivery_ablation_20260723.py",
+    "experiments/summarize_bridge_sensitive_anime_20260722.py",
+    "experiments/summarize_effective_soft_ablations_20260714.py",
+    "experiments/summarize_generation_ablation.py",
+    "experiments/summarize_joint_view_formal_20260727.py",
+    "experiments/summarize_joint_view_quick_audit_20260727.py",
+    "experiments/summarize_paper_experiments.py",
+    "experiments/summarize_soft_loss_v2.py",
+    "experiments/summarize_soft_loss_v3.py",
+    "experiments/summarize_soft_threshold_stability_20260718.py",
+    "experiments/summarize_table2_pilot_20260722.py",
+    "experiments/summarize_v13_soft_log_ablation.py",
+    "experiments/summarize_v13_soft_logs_20260704.py",
+    "experiments/support_aware_carve_10cm_64.py",
+    "experiments/support_free_10cm_256_v1.py",
+    "experiments/support_free_10cm_256_v2.py",
+    "experiments/support_free_10cm_96_d4_scan.py",
+    "experiments/surgical_replace_fig4_mitra_render_20260729.py",
+    "experiments/table2a_loss_only_protocol_20260727.json",
+    "experiments/test_official_operator_adapters.py",
+    "experiments/test_resolution.py",
+    "experiments/train_cached_candidate_safety_gate_20260708.py",
+    "experiments/train_candidate_pino_field.py",
+    "experiments/train_candidate_pino_grouped.py",
+    "experiments/train_current_candidate_decision_aware_pino_20260708.py",
+    "experiments/train_current_candidate_lowerbound_pino_20260710.py",
+    "experiments/train_current_candidate_maxcoverage_pino_20260709.py",
+    "experiments/train_current_candidate_ranked_pino_20260708.py",
+    "experiments/train_current_candidate_targeted_safe_pino_20260708.py",
+    "experiments/train_decision_acs_ensemble.py",
+    "experiments/train_decision_aware_pino.py",
+    "experiments/train_merged_near_boundary_decision_gate.py",
+    "experiments/train_near_boundary_safety_decision_gate.py",
+    "experiments/train_pino_aug_hardneg.py",
+    "experiments/train_pino_safe_side_boundary.py",
+    "experiments/train_pino_safe_side_external_hardneg.py",
+    "experiments/train_scalar_structural_baseline_v7.py",
+    "experiments/train_selective_safe_accept_gate.py",
+    "experiments/train_taskgrouped_fem_decision_pino_20260711.py",
+    "experiments/train_v29_safe_side_classifier.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/generation/__init__.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/generation/datasets.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/generation/export_high_quality_mesh.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/generation/export_model_views.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/generation/losses.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/generation/models.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/generation/post_export.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/generation/requirements.txt",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/generation/results/soft_full_loss_ablation_smoke_20260704/full/free/metrics_history.json",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/generation/results/soft_full_loss_ablation_smoke_20260704/full/free/sample_0_metrics.txt",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/generation/run_n2n3_tsf_mr_iter250_20260618.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/generation/safe_minimize.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/generation/train.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/generation/tsf_general.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/generation/utils.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/generation/voxel_ops.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/protocol_contract.json",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/run_three_surface_physical_isolated_20260726.sh",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/shadowforge_pipeline/__init__.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/shadowforge_pipeline/display_delivery.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/shadowforge_pipeline/fixed_surfaces.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/shadowforge_pipeline/pino_ranked_fem.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/shadowforge_pipeline/run.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/shadowforge_pipeline/unified_run.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/shadowforge_pipeline/v29_ensemble_screen.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/__init__.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/analysis/__init__.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/analysis/analysis/__init__.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/analysis/analysis/fem_solver.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/analysis/analysis/load_generator.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/analysis/analysis/stress_eval.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/analysis/analysis/vulnerability.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/analysis/fem_solver.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/analysis/load_generator.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/analysis/stress_eval.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/analysis/vulnerability.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/configs/__init__.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/configs/default.yaml",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/configs/stage_c_pilot.yaml",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/data/__init__.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/data/generate_continuous_density_fem_dataset.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/data/generate_fem_dataset.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/detection/__init__.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/detection/__main__.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/detection/calibrate_thresholds.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/detection/config.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/detection/load_resolver.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/detection/strength_detector.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/experiments/__init__.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/experiments/ablation.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/experiments/baselines.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/experiments/bound_verification.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/experiments/convergence_analysis.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/experiments/evaluate_metrics.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/experiments/pino_validation.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/experiments/plot_results.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/experiments/prepare_data.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/experiments/prepare_shapenet.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/experiments/run_all_experiments.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/experiments/run_evaluation.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/experiments/run_experiment.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/experiments/run_min_ablation_suite.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/experiments/scalability.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/export/__init__.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/export/build_alignment_summary.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/export/export_closed_loop_safe_obj.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/export/export_fem_analysis_comparison.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/export/export_mesh_fem_report.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/export/optimize_safe_highres_remap.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/export/printability_check.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/export/remap_fem_repair_to_highres.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/export/revoxelize_mesh_to_grid.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/export/visualize_fem_hotspot_vs_repair.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/export/voxel_to_mesh.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/infill/__init__.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/infill/infill_guidance.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/mesh_fem/calibration.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/mesh_fem/mesh_fem_solver.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/models/__init__.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/models/baselines.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/models/calibrated_pino.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/models/calibrated_pino_d23.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/models/hr_pino.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/models/load_model.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/models/official_operator_baselines.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/models/pino.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/models/repair_cnn.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/models/volume_model.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/optimization/__init__.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/optimization/alm_optimizer.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/optimization/discrete_stage_c.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/optimization/gradient_router.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/optimization/safety_bound.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/training/__init__.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/training/analyze_fem_dataset_distribution.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/training/build_pino_version_comparison.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/training/monitor_pino_training.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/training/pretrain_hr_pino.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/training/pretrain_pino.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/training/pretrain_pino_v2.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/training/pretrain_pino_v3.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/training/run_training_pipeline.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/training/train_joint.py",
+    "experiments/two_wall_fixed_surface_extension_isolated_20260726/structural/training/train_repair.py",
+    "experiments/unify_pino_acs_runtime_protocol_20260708.py",
+    "experiments/unify_promoted_pino_union_on_current_candidates_20260708.py",
+    "experiments/update_pipeline_remove_acs_20260719.py",
+    "experiments/validate_decoupled_48core_256shell.py",
+    "experiments/viewcount_matrix_20260730/inventory_manifests.py",
+    "experiments/viewcount_matrix_20260730/render_evidence_gallery.py",
+    "experiments/viewcount_matrix_20260730/run_extended_cases.sh",
+    "experiments/viewcount_matrix_20260730/run_missing_cases.sh",
+    "experiments/viewcount_matrix_20260730/run_queued_matrix_and_probes.sh",
+    "experiments/viewcount_matrix_20260730/run_threeview_contribution_probes.sh",
+    "experiments/viewcount_matrix_20260730/run_threeview_probes.sh",
+    "experiments/viewcount_matrix_20260730/summarize.py",
+    "experiments/viewcount_matrix_20260730/tasks.json",
+    "experiments/wait_then_run_mitra_stratified_author_baselines_20260716.sh",
+    "experiments/wait_then_run_stratified_shadowforge_20260717.sh",
+    "experiments/wait_then_run_strict_physics_pino_v13_20260717.sh",
+    "experiments/watch_and_launch_strict_pino_v7.py",
+    "tests/test_authoritative_pipeline.py",
+    "tests/test_candidate_selection.py",
+    "tests/test_fixed_xyz_carve_branch.py",
+    "tests/test_generic_delivery.py",
+    "tests/test_multiview_contract_delivery_20260902.py",
+    "tests/test_multiview_export_adapter_20260830.py",
+    "tests/test_multiview_native_delivery_20260905.py",
+    "tests/test_shadowart_manufacturing_20260905.py",
+    "tests/test_shadowart_vnext_ablation.py",
+    "tests/test_shadowart_vnext_artifacts.py",
+    "tests/test_shadowart_vnext_body_reinforcement.py",
+    "tests/test_shadowart_vnext_cell_boundary.py",
+    "tests/test_shadowart_vnext_component_replacement.py",
+    "tests/test_shadowart_vnext_continuation.py",
+    "tests/test_shadowart_vnext_continuous_delivery.py",
+    "tests/test_shadowart_vnext_continuous_surface.py",
+    "tests/test_shadowart_vnext_contracts.py",
+    "tests/test_shadowart_vnext_delivery.py",
+    "tests/test_shadowart_vnext_entity_projection.py",
+    "tests/test_shadowart_vnext_fidelity_probe.py",
+    "tests/test_shadowart_vnext_finalize.py",
+    "tests/test_shadowart_vnext_generic.py",
+    "tests/test_shadowart_vnext_geometry.py",
+    "tests/test_shadowart_vnext_handoff.py",
+    "tests/test_shadowart_vnext_hard_alignment.py",
+    "tests/test_shadowart_vnext_initialization.py",
+    "tests/test_shadowart_vnext_joint_geometry.py",
+    "tests/test_shadowart_vnext_layout.py",
+    "tests/test_shadowart_vnext_losses.py",
+    "tests/test_shadowart_vnext_manufacturing.py",
+    "tests/test_shadowart_vnext_material_relocation.py",
+    "tests/test_shadowart_vnext_metrics.py",
+    "tests/test_shadowart_vnext_projection_ceiling.py",
+    "tests/test_shadowart_vnext_provenance.py",
+    "tests/test_shadowart_vnext_ray_closure.py",
+    "tests/test_shadowart_vnext_ray_demand.py",
+    "tests/test_shadowart_vnext_ray_ledger.py",
+    "tests/test_shadowart_vnext_ray_restore.py",
+    "tests/test_shadowart_vnext_regional_geometry.py",
+    "tests/test_shadowart_vnext_regional_solver.py",
+    "tests/test_shadowart_vnext_rendering.py",
+    "tests/test_shadowart_vnext_rooted_core.py",
+    "tests/test_shadowart_vnext_rooted_core_early.py",
+    "tests/test_shadowart_vnext_rooted_core_probe.py",
+    "tests/test_shadowart_vnext_slicer.py",
+    "tests/test_shadowart_vnext_training.py",
+    "tests/test_soft_loss_v2.py",
+    "tests/test_soft_loss_v2_experiments.py",
+    "tests/test_soft_loss_v2_trainer.py",
+    "tests/test_soft_loss_v3_calibration.py",
+    "tests/test_soft_loss_v3_contours.py",
+    "tests/test_soft_loss_v3_diagnostics.py",
+    "tests/test_soft_loss_v3_gates.py",
+    "tests/test_soft_loss_v3_losses.py",
+    "tests/test_soft_loss_v3_metrics.py",
+    "tests/test_soft_loss_v3_protocol.py",
+    "tests/test_soft_loss_v3_registry.py",
+    "tests/test_soft_loss_v3_runner.py",
+    "tests/test_soft_loss_v3_statistics.py",
+    "tests/test_soft_loss_v3_thresholding.py",
+    "tests/test_soft_loss_v3_trainer.py",
+    "tests/test_soft_loss_v3_trainer_step.py",
+    "tests/test_soft_loss_v4_ablation10_analysis.py",
+    "tests/test_soft_loss_v4_ablation10_runner.py",
+    "tests/test_soft_loss_v4_calibration.py",
+    "tests/test_soft_loss_v4_diagnostics.py",
+    "tests/test_soft_loss_v4_gradients.py",
+    "tests/test_soft_loss_v4_losses.py",
+    "tests/test_soft_loss_v4_provenance.py",
+    "tests/test_soft_loss_v4_registry.py",
+    "tests/test_soft_loss_v4_trainer.py",
+    "tests/test_soft_loss_v4_trainer_step.py",
+    "tests/test_soft_loss_v5_quick_ablation.py",
+    "tests/test_soft_loss_v6_analysis.py",
+    "tests/test_soft_loss_v6_core.py",
+    "tests/test_soft_loss_v6_runner.py",
+    "tests/test_soft_loss_v6_statistics.py",
+    "tests/test_soft_loss_v6_trainer.py",
+    "tests/test_soft_loss_v7_analysis.py",
+    "tests/test_soft_loss_v7_core.py",
+    "tests/test_soft_loss_v7_provenance.py",
+    "tests/test_soft_loss_v7_registry.py",
+    "tests/test_soft_loss_v7_runner.py",
+    "tests/test_soft_loss_v7_statistics.py",
+    "tests/test_soft_loss_v7_suite.py",
+    "tests/test_soft_loss_v7_trainer.py",
+    "shadowforge_pipeline/__init__.py",
+    "shadowforge_pipeline/display_delivery.py",
+    "shadowforge_pipeline/fixed_surfaces.py",
+    "shadowforge_pipeline/fixed_xyz_carve.py",
+    "shadowforge_pipeline/pino_ranked_fem.py",
+    "shadowforge_pipeline/run.py",
+    "shadowforge_pipeline/soft_voxel_v2/__init__.py",
+    "shadowforge_pipeline/soft_voxel_v2/data.py",
+    "shadowforge_pipeline/soft_voxel_v2/losses.py",
+    "shadowforge_pipeline/soft_voxel_v2/metrics.py",
+    "shadowforge_pipeline/soft_voxel_v2/protocol.py",
+    "shadowforge_pipeline/soft_voxel_v2/trainer.py",
+    "shadowforge_pipeline/soft_voxel_v3/__init__.py",
+    "shadowforge_pipeline/soft_voxel_v3/calibration.py",
+    "shadowforge_pipeline/soft_voxel_v3/contours.py",
+    "shadowforge_pipeline/soft_voxel_v3/data.py",
+    "shadowforge_pipeline/soft_voxel_v3/diagnostics.py",
+    "shadowforge_pipeline/soft_voxel_v3/losses.py",
+    "shadowforge_pipeline/soft_voxel_v3/lovasz.py",
+    "shadowforge_pipeline/soft_voxel_v3/metrics.py",
+    "shadowforge_pipeline/soft_voxel_v3/protocol.py",
+    "shadowforge_pipeline/soft_voxel_v3/provenance.py",
+    "shadowforge_pipeline/soft_voxel_v3/thresholding.py",
+    "shadowforge_pipeline/soft_voxel_v3/trainer.py",
+    "shadowforge_pipeline/soft_voxel_v4/__init__.py",
+    "shadowforge_pipeline/soft_voxel_v4/calibration.py",
+    "shadowforge_pipeline/soft_voxel_v4/config.py",
+    "shadowforge_pipeline/soft_voxel_v4/diagnostics.py",
+    "shadowforge_pipeline/soft_voxel_v4/gradients.py",
+    "shadowforge_pipeline/soft_voxel_v4/losses.py",
+    "shadowforge_pipeline/soft_voxel_v4/provenance.py",
+    "shadowforge_pipeline/soft_voxel_v4/trainer.py",
+    "shadowforge_pipeline/soft_voxel_v4/trainer_step.py",
+    "shadowforge_pipeline/soft_voxel_v5/__init__.py",
+    "shadowforge_pipeline/soft_voxel_v5/quick_ablation.py",
+    "shadowforge_pipeline/soft_voxel_v6/__init__.py",
+    "shadowforge_pipeline/soft_voxel_v6/core.py",
+    "shadowforge_pipeline/soft_voxel_v6/provenance.py",
+    "shadowforge_pipeline/soft_voxel_v6/statistics.py",
+    "shadowforge_pipeline/soft_voxel_v6/trainer.py",
+    "shadowforge_pipeline/soft_voxel_v7/__init__.py",
+    "shadowforge_pipeline/soft_voxel_v7/core.py",
+    "shadowforge_pipeline/soft_voxel_v7/protocol.py",
+    "shadowforge_pipeline/soft_voxel_v7/provenance.py",
+    "shadowforge_pipeline/soft_voxel_v7/registry.py",
+    "shadowforge_pipeline/soft_voxel_v7/statistics.py",
+    "shadowforge_pipeline/soft_voxel_v7/suite.py",
+    "shadowforge_pipeline/soft_voxel_v7/trainer.py",
+    "shadowforge_pipeline/unified_run.py",
+    "shadowforge_pipeline/v29_ensemble_screen.py"
+  ],
+  "versions": [
+    {
+      "name": "_smoke_taskgrouped_20260711",
+      "files": [
+        {
+          "path": "checkpoints/_smoke_taskgrouped_20260711/decision_aware_pino.pt",
+          "bytes": 26482670
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "current_candidate_decision_aware_pino_20260708",
+      "files": [
+        {
+          "path": "checkpoints/current_candidate_decision_aware_pino_20260708/decision_aware_pino.pt",
+          "bytes": 16813944
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "current_candidate_decision_aware_pino_400case_20260708",
+      "files": [
+        {
+          "path": "checkpoints/current_candidate_decision_aware_pino_400case_20260708/decision_aware_pino.pt",
+          "bytes": 16813880
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "current_candidate_decision_aware_pino_smoke_20260708",
+      "files": [
+        {
+          "path": "checkpoints/current_candidate_decision_aware_pino_smoke_20260708/decision_aware_pino.pt",
+          "bytes": 16813944
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "current_candidate_decision_aware_pino_stratified_rank_20260709",
+      "files": [
+        {
+          "path": "checkpoints/current_candidate_decision_aware_pino_stratified_rank_20260709/decision_aware_pino.pt",
+          "bytes": 16818488
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "current_candidate_lowerbound_pino_expand40_100epoch_20260710",
+      "files": [
+        {
+          "path": "checkpoints/current_candidate_lowerbound_pino_expand40_100epoch_20260710/lowerbound_scale_pino.pt",
+          "bytes": 27710936
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "current_candidate_maxcoverage_pino_100case_nearboundary_120epoch_20260710",
+      "files": [
+        {
+          "path": "checkpoints/current_candidate_maxcoverage_pino_100case_nearboundary_120epoch_20260710/maxcoverage_decision_pino.pt",
+          "bytes": 28174448
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "current_candidate_maxcoverage_pino_100case_nearboundary_smoke_20260710",
+      "files": [
+        {
+          "path": "checkpoints/current_candidate_maxcoverage_pino_100case_nearboundary_smoke_20260710/maxcoverage_decision_pino.pt",
+          "bytes": 28173104
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "current_candidate_maxcoverage_pino_20260709",
+      "files": [],
+      "weights_uploaded": false
+    },
+    {
+      "name": "current_candidate_maxcoverage_pino_smoke_20260709",
+      "files": [
+        {
+          "path": "checkpoints/current_candidate_maxcoverage_pino_smoke_20260709/maxcoverage_decision_pino.pt",
+          "bytes": 28175856
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "current_candidate_physics_pino_120epoch_20260711",
+      "files": [
+        {
+          "path": "checkpoints/current_candidate_physics_pino_120epoch_20260711/best_model.pt",
+          "bytes": 512033963
+        },
+        {
+          "path": "checkpoints/current_candidate_physics_pino_120epoch_20260711/last_model.pt",
+          "bytes": 177115855
+        },
+        {
+          "path": "checkpoints/current_candidate_physics_pino_120epoch_20260711/training_history.json",
+          "bytes": 27120
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "current_candidate_physics_pino_stable_120epoch_20260711",
+      "files": [
+        {
+          "path": "checkpoints/current_candidate_physics_pino_stable_120epoch_20260711/best_model.pt",
+          "bytes": 512033963
+        },
+        {
+          "path": "checkpoints/current_candidate_physics_pino_stable_120epoch_20260711/epoch_50.pt",
+          "bytes": 177114346
+        },
+        {
+          "path": "checkpoints/current_candidate_physics_pino_stable_120epoch_20260711/last_model.pt",
+          "bytes": 177115855
+        },
+        {
+          "path": "checkpoints/current_candidate_physics_pino_stable_120epoch_20260711/training_history.json",
+          "bytes": 114321
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "current_candidate_physics_pino_stable_v2_120epoch_20260711",
+      "files": [
+        {
+          "path": "checkpoints/current_candidate_physics_pino_stable_v2_120epoch_20260711/best_model.pt",
+          "bytes": 512034027
+        },
+        {
+          "path": "checkpoints/current_candidate_physics_pino_stable_v2_120epoch_20260711/epoch_100.pt",
+          "bytes": 177114507
+        },
+        {
+          "path": "checkpoints/current_candidate_physics_pino_stable_v2_120epoch_20260711/epoch_50.pt",
+          "bytes": 177114346
+        },
+        {
+          "path": "checkpoints/current_candidate_physics_pino_stable_v2_120epoch_20260711/last_model.pt",
+          "bytes": 177115855
+        },
+        {
+          "path": "checkpoints/current_candidate_physics_pino_stable_v2_120epoch_20260711/training_history.json",
+          "bytes": 168075
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "current_candidate_ranked_pino_20260708",
+      "files": [
+        {
+          "path": "checkpoints/current_candidate_ranked_pino_20260708/decision_aware_ranked_pino.pt",
+          "bytes": 16814245
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "current_candidate_rear_joint_balanced_pino_150epoch_20260710",
+      "files": [
+        {
+          "path": "checkpoints/current_candidate_rear_joint_balanced_pino_150epoch_20260710/maxcoverage_decision_pino.pt",
+          "bytes": 28175152
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "current_candidate_targeted_safe_pino_20260708",
+      "files": [
+        {
+          "path": "checkpoints/current_candidate_targeted_safe_pino_20260708/decision_aware_targeted_safe_pino.pt",
+          "bytes": 16814546
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "current_candidate_targeted_safe_pino_20260708_rerun",
+      "files": [
+        {
+          "path": "checkpoints/current_candidate_targeted_safe_pino_20260708_rerun/decision_aware_targeted_safe_pino.pt",
+          "bytes": 16814610
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "current_candidate_taskgrouped_decision_pino_v29c_margin_v2_120epoch_20260711",
+      "files": [
+        {
+          "path": "checkpoints/current_candidate_taskgrouped_decision_pino_v29c_margin_v2_120epoch_20260711/decision_aware_pino.pt",
+          "bytes": 26482670
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "decision_aware_pino_20260704",
+      "files": [
+        {
+          "path": "checkpoints/decision_aware_pino_20260704/decision_aware_pino.pt",
+          "bytes": 18141474
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "decision_aware_pino_conservative_20260704",
+      "files": [
+        {
+          "path": "checkpoints/decision_aware_pino_conservative_20260704/decision_aware_pino.pt",
+          "bytes": 18141474
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "decision_aware_pino_e10_cal300_w44_miss18_20260704",
+      "files": [
+        {
+          "path": "checkpoints/decision_aware_pino_e10_cal300_w44_miss18_20260704/decision_aware_pino.pt",
+          "bytes": 18141474
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "decision_aware_pino_e8_cal300_w36_miss14_20260704",
+      "files": [
+        {
+          "path": "checkpoints/decision_aware_pino_e8_cal300_w36_miss14_20260704/decision_aware_pino.pt",
+          "bytes": 18141474
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "decision_aware_pino_e8_cal300_w36_miss22_margin005_20260704",
+      "files": [
+        {
+          "path": "checkpoints/decision_aware_pino_e8_cal300_w36_miss22_margin005_20260704/decision_aware_pino.pt",
+          "bytes": 18141474
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "decision_aware_pino_print_candidates_20260708",
+      "files": [
+        {
+          "path": "checkpoints/decision_aware_pino_print_candidates_20260708/decision_aware_pino.pt",
+          "bytes": 18141474
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "decision_aware_pino_print_candidates_smoke_20260708",
+      "files": [
+        {
+          "path": "checkpoints/decision_aware_pino_print_candidates_smoke_20260708/decision_aware_pino.pt",
+          "bytes": 18141474
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "merged_near_boundary_decision_gate_20260705",
+      "files": [
+        {
+          "path": "checkpoints/merged_near_boundary_decision_gate_20260705/gate.joblib",
+          "bytes": 120016
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "merged_near_boundary_decision_gate_noleak_20260705",
+      "files": [
+        {
+          "path": "checkpoints/merged_near_boundary_decision_gate_noleak_20260705/gate.joblib",
+          "bytes": 14473945
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "near_boundary_safety_decision_gate_20260704",
+      "files": [
+        {
+          "path": "checkpoints/near_boundary_safety_decision_gate_20260704/gate.joblib",
+          "bytes": 670272
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "official_gino_official_formal_20260723",
+      "files": [],
+      "weights_uploaded": false
+    },
+    {
+      "name": "official_gino_official_formal_60e_w8_20260723",
+      "files": [
+        {
+          "path": "checkpoints/official_gino_official_formal_60e_w8_20260723/best_model.pt",
+          "bytes": 199448953
+        },
+        {
+          "path": "checkpoints/official_gino_official_formal_60e_w8_20260723/epoch_50.pt",
+          "bytes": 66482645
+        },
+        {
+          "path": "checkpoints/official_gino_official_formal_60e_w8_20260723/last_model.pt",
+          "bytes": 66483749
+        },
+        {
+          "path": "checkpoints/official_gino_official_formal_60e_w8_20260723/training_history.json",
+          "bytes": 20637
+        },
+        {
+          "path": "checkpoints/official_gino_official_formal_60e_w8_20260723/training_history.pre_resume_epoch26.json",
+          "bytes": 48717
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "official_gino_official_pilot_20260723",
+      "files": [
+        {
+          "path": "checkpoints/official_gino_official_pilot_20260723/best_model.pt",
+          "bytes": 7319865
+        },
+        {
+          "path": "checkpoints/official_gino_official_pilot_20260723/last_model.pt",
+          "bytes": 2441093
+        },
+        {
+          "path": "checkpoints/official_gino_official_pilot_20260723/training_history.json",
+          "bytes": 5398
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "official_transolver_official_formal_60e_w8_20260727",
+      "files": [
+        {
+          "path": "checkpoints/official_transolver_official_formal_60e_w8_20260727/best_model.pt",
+          "bytes": 173154
+        },
+        {
+          "path": "checkpoints/official_transolver_official_formal_60e_w8_20260727/last_model.pt",
+          "bytes": 56806
+        },
+        {
+          "path": "checkpoints/official_transolver_official_formal_60e_w8_20260727/training_history.json",
+          "bytes": 7290
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "official_transolver_official_formal_60e_w8_fp32_20260727",
+      "files": [
+        {
+          "path": "checkpoints/official_transolver_official_formal_60e_w8_fp32_20260727/best_model.pt",
+          "bytes": 172962
+        },
+        {
+          "path": "checkpoints/official_transolver_official_formal_60e_w8_fp32_20260727/epoch_50.pt",
+          "bytes": 55807
+        },
+        {
+          "path": "checkpoints/official_transolver_official_formal_60e_w8_fp32_20260727/last_model.pt",
+          "bytes": 56806
+        },
+        {
+          "path": "checkpoints/official_transolver_official_formal_60e_w8_fp32_20260727/training_history.json",
+          "bytes": 117788
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "official_transolver_official_pilot_20260723",
+      "files": [
+        {
+          "path": "checkpoints/official_transolver_official_pilot_20260723/best_model.pt",
+          "bytes": 1529442
+        },
+        {
+          "path": "checkpoints/official_transolver_official_pilot_20260723/last_model.pt",
+          "bytes": 509030
+        },
+        {
+          "path": "checkpoints/official_transolver_official_pilot_20260723/training_history.json",
+          "bytes": 5426
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "pino_aug_hardneg_20260624",
+      "files": [
+        {
+          "path": "checkpoints/pino_aug_hardneg_20260624/scale_geoattn_e8.pt",
+          "bytes": 17970095
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "pino_candidate_decision_20260703",
+      "files": [
+        {
+          "path": "checkpoints/pino_candidate_decision_20260703/field_tail_delta.pt",
+          "bytes": 4616603
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "pino_candidate_field_20260703",
+      "files": [
+        {
+          "path": "checkpoints/pino_candidate_field_20260703/field_tail_delta.pt",
+          "bytes": 4616603
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "pino_candidate_grouped_20260703",
+      "files": [
+        {
+          "path": "checkpoints/pino_candidate_grouped_20260703/best_grouped_candidate.pt",
+          "bytes": 17968489
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "pino_component_ablations_20260720",
+      "files": [
+        {
+          "path": "checkpoints/pino_component_ablations_20260720/w_o_asymmetric_loss/best_model.pt",
+          "bytes": 154573383
+        },
+        {
+          "path": "checkpoints/pino_component_ablations_20260720/w_o_asymmetric_loss/epoch_50.pt",
+          "bytes": 54383427
+        },
+        {
+          "path": "checkpoints/pino_component_ablations_20260720/w_o_asymmetric_loss/last_model.pt",
+          "bytes": 54384811
+        },
+        {
+          "path": "checkpoints/pino_component_ablations_20260720/w_o_asymmetric_loss/training_history.json",
+          "bytes": 119937
+        },
+        {
+          "path": "checkpoints/pino_component_ablations_20260720/w_o_physics/best_model.pt",
+          "bytes": 154573383
+        },
+        {
+          "path": "checkpoints/pino_component_ablations_20260720/w_o_physics/epoch_50.pt",
+          "bytes": 54383427
+        },
+        {
+          "path": "checkpoints/pino_component_ablations_20260720/w_o_physics/last_model.pt",
+          "bytes": 54384811
+        },
+        {
+          "path": "checkpoints/pino_component_ablations_20260720/w_o_physics/training_history.json",
+          "bytes": 131854
+        },
+        {
+          "path": "checkpoints/pino_component_ablations_20260720/w_o_scale_fno/best_model.pt",
+          "bytes": 134898009
+        },
+        {
+          "path": "checkpoints/pino_component_ablations_20260720/w_o_scale_fno/epoch_50.pt",
+          "bytes": 44960229
+        },
+        {
+          "path": "checkpoints/pino_component_ablations_20260720/w_o_scale_fno/last_model.pt",
+          "bytes": 44961453
+        },
+        {
+          "path": "checkpoints/pino_component_ablations_20260720/w_o_scale_fno/training_history.json",
+          "bytes": 135043
+        },
+        {
+          "path": "checkpoints/pino_component_ablations_20260720/w_o_structural_context/best_model.pt",
+          "bytes": 154571079
+        },
+        {
+          "path": "checkpoints/pino_component_ablations_20260720/w_o_structural_context/epoch_50.pt",
+          "bytes": 54382659
+        },
+        {
+          "path": "checkpoints/pino_component_ablations_20260720/w_o_structural_context/last_model.pt",
+          "bytes": 54384043
+        },
+        {
+          "path": "checkpoints/pino_component_ablations_20260720/w_o_structural_context/training_history.json",
+          "bytes": 141105
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "pino_full_data_120epoch_20260709",
+      "files": [
+        {
+          "path": "checkpoints/pino_full_data_120epoch_20260709/safe_side_external_hardneg_scale.pt",
+          "bytes": 17970143
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "pino_near_safe_margin_debug_20260704",
+      "files": [
+        {
+          "path": "checkpoints/pino_near_safe_margin_debug_20260704/safe_side_external_hardneg_scale.pt",
+          "bytes": 17970143
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "pino_near_safe_margin_maincal_debug_20260704",
+      "files": [
+        {
+          "path": "checkpoints/pino_near_safe_margin_maincal_debug_20260704/safe_side_external_hardneg_scale.pt",
+          "bytes": 17970143
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "pino_near_safe_margin_smoke_20260704",
+      "files": [
+        {
+          "path": "checkpoints/pino_near_safe_margin_smoke_20260704/safe_side_external_hardneg_scale.pt",
+          "bytes": 17970143
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "pino_safe_accept90_cal240_m08_20260704",
+      "files": [
+        {
+          "path": "checkpoints/pino_safe_accept90_cal240_m08_20260704/safe_side_external_hardneg_scale.pt",
+          "bytes": 17970143
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "pino_safe_accept90_cal240_m12_20260704",
+      "files": [
+        {
+          "path": "checkpoints/pino_safe_accept90_cal240_m12_20260704/safe_side_external_hardneg_scale.pt",
+          "bytes": 17970143
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "pino_safe_accept90_cal300_m08_20260704",
+      "files": [
+        {
+          "path": "checkpoints/pino_safe_accept90_cal300_m08_20260704/safe_side_external_hardneg_scale.pt",
+          "bytes": 17970143
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "pino_safe_accept90_cal300_m14_single_20260706",
+      "files": [
+        {
+          "path": "checkpoints/pino_safe_accept90_cal300_m14_single_20260706/safe_side_external_hardneg_scale.pt",
+          "bytes": 17970143
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "pino_safe_margin_light_e6_hs1_m06_20260704",
+      "files": [
+        {
+          "path": "checkpoints/pino_safe_margin_light_e6_hs1_m06_20260704/safe_side_external_hardneg_scale.pt",
+          "bytes": 17970143
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "pino_safe_margin_light_e6_hs2_m08_20260704",
+      "files": [
+        {
+          "path": "checkpoints/pino_safe_margin_light_e6_hs2_m08_20260704/safe_side_external_hardneg_scale.pt",
+          "bytes": 17970143
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "pino_safe_side_boundary_20260703",
+      "files": [
+        {
+          "path": "checkpoints/pino_safe_side_boundary_20260703/safe_side_boundary_scale.pt",
+          "bytes": 17968743
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "pino_safe_side_boundary_full_20260703",
+      "files": [
+        {
+          "path": "checkpoints/pino_safe_side_boundary_full_20260703/safe_side_boundary_scale.pt",
+          "bytes": 17968743
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "pino_safe_side_external_hardneg_20260703",
+      "files": [
+        {
+          "path": "checkpoints/pino_safe_side_external_hardneg_20260703/safe_side_external_hardneg_scale.pt",
+          "bytes": 17970207
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "pino_safe_side_external_hardneg_cal180_20260703",
+      "files": [
+        {
+          "path": "checkpoints/pino_safe_side_external_hardneg_cal180_20260703/safe_side_external_hardneg_scale.pt",
+          "bytes": 17970207
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "pino_safe_side_external_hardneg_cal200_20260703",
+      "files": [
+        {
+          "path": "checkpoints/pino_safe_side_external_hardneg_cal200_20260703/safe_side_external_hardneg_scale.pt",
+          "bytes": 17970207
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "pino_safe_side_external_hardneg_cal240_20260703",
+      "files": [
+        {
+          "path": "checkpoints/pino_safe_side_external_hardneg_cal240_20260703/safe_side_external_hardneg_scale.pt",
+          "bytes": 17970207
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "pino_safe_side_external_hardneg_cal240_hard5_w20_20260703",
+      "files": [
+        {
+          "path": "checkpoints/pino_safe_side_external_hardneg_cal240_hard5_w20_20260703/safe_side_external_hardneg_scale.pt",
+          "bytes": 17970207
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "pino_safe_side_external_hardneg_cal300_20260703",
+      "files": [
+        {
+          "path": "checkpoints/pino_safe_side_external_hardneg_cal300_20260703/safe_side_external_hardneg_scale.pt",
+          "bytes": 17970207
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "pino_v24_ufno_dual",
+      "files": [
+        {
+          "path": "checkpoints/pino_v24_ufno_dual/best_model.pt",
+          "bytes": 502367397
+        },
+        {
+          "path": "checkpoints/pino_v24_ufno_dual/best_model_e10_sf0991.pt",
+          "bytes": 502367397
+        },
+        {
+          "path": "checkpoints/pino_v24_ufno_dual/epoch_50.pt",
+          "bytes": 167447728
+        },
+        {
+          "path": "checkpoints/pino_v24_ufno_dual/training_history.json",
+          "bytes": 25411
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "scale_head_v2_weighted.bak",
+      "files": [
+        {
+          "path": "checkpoints/scale_head_v2_weighted.bak/best_scale_head_v2_weighted.pt",
+          "bytes": 9668485
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "selective_safe_accept_gate_cal240_20260703",
+      "files": [
+        {
+          "path": "checkpoints/selective_safe_accept_gate_cal240_20260703/gate.joblib",
+          "bytes": 175408
+        },
+        {
+          "path": "checkpoints/selective_safe_accept_gate_cal240_20260703/hybrid_logistic.joblib",
+          "bytes": 1777
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "strict_physics_residual_decision_pino_v8_48_20260715",
+      "files": [
+        {
+          "path": "checkpoints/strict_physics_residual_decision_pino_v8_48_20260715/best_model.pt",
+          "bytes": 154573127
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_decision_pino_v8_48_20260715/last_model.pt",
+          "bytes": 54384811
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_decision_pino_v8_48_20260715/training_history.json",
+          "bytes": 45817
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "strict_physics_residual_decision_pino_v9_stable_20260715",
+      "files": [
+        {
+          "path": "checkpoints/strict_physics_residual_decision_pino_v9_stable_20260715/best_model.pt",
+          "bytes": 64905965
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_decision_pino_v9_stable_20260715/epoch_50.pt",
+          "bytes": 54383427
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_decision_pino_v9_stable_20260715/last_model.pt",
+          "bytes": 54384811
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_decision_pino_v9_stable_20260715/training_history.json",
+          "bytes": 106761
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "strict_physics_residual_pino_v10_v7boundary_20260716",
+      "files": [
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v10_v7boundary_20260716/best_model.pt",
+          "bytes": 154572999
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v10_v7boundary_20260716/epoch_100.pt",
+          "bytes": 54383563
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v10_v7boundary_20260716/epoch_150.pt",
+          "bytes": 54383563
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v10_v7boundary_20260716/epoch_50.pt",
+          "bytes": 54383427
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v10_v7boundary_20260716/last_model.pt",
+          "bytes": 54384811
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v10_v7boundary_20260716/training_history.json",
+          "bytes": 298287
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "strict_physics_residual_pino_v13_dangerous_20260717",
+      "files": [
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v13_dangerous_20260717/best_model.pt",
+          "bytes": 154573383
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v13_dangerous_20260717/epoch_50.pt",
+          "bytes": 54383427
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v13_dangerous_20260717/last_model.pt",
+          "bytes": 54384811
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v13_dangerous_20260717/training_history.json",
+          "bytes": 157639
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "strict_physics_residual_pino_v14_false_safe_20260717",
+      "files": [
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v14_false_safe_20260717/best_model.pt",
+          "bytes": 154573383
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v14_false_safe_20260717/epoch_50.pt",
+          "bytes": 54383427
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v14_false_safe_20260717/last_model.pt",
+          "bytes": 54384811
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v14_false_safe_20260717/training_history.json",
+          "bytes": 125554
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "strict_physics_residual_pino_v15_tail_20260717",
+      "files": [
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v15_tail_20260717/best_model.pt",
+          "bytes": 154573383
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v15_tail_20260717/epoch_50.pt",
+          "bytes": 54383427
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v15_tail_20260717/last_model.pt",
+          "bytes": 54384811
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v15_tail_20260717/training_history.json",
+          "bytes": 129594
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "strict_physics_residual_pino_v16_shadowart_scale_20260718",
+      "files": [
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v16_shadowart_scale_20260718/best_model.pt",
+          "bytes": 154573383
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v16_shadowart_scale_20260718/epoch_50.pt",
+          "bytes": 54383427
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v16_shadowart_scale_20260718/last_model.pt",
+          "bytes": 54384811
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v16_shadowart_scale_20260718/training_history.json",
+          "bytes": 127906
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "strict_physics_residual_pino_v17_safe90_20260718",
+      "files": [
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v17_safe90_20260718/best_model.pt",
+          "bytes": 154573383
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v17_safe90_20260718/epoch_50.pt",
+          "bytes": 54383427
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v17_safe90_20260718/last_model.pt",
+          "bytes": 54384811
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v17_safe90_20260718/training_history.json",
+          "bytes": 98480
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "strict_physics_residual_pino_v5_48_20260712",
+      "files": [
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v5_48_20260712/best_model.pt",
+          "bytes": 512035563
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v5_48_20260712/epoch_100.pt",
+          "bytes": 177115083
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v5_48_20260712/epoch_150.pt",
+          "bytes": 177115083
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v5_48_20260712/epoch_50.pt",
+          "bytes": 177114922
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v5_48_20260712/last_model.pt",
+          "bytes": 177116431
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v5_48_20260712/training_history.json",
+          "bytes": 241739
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "strict_physics_residual_pino_v6_delivered_48_20260713",
+      "files": [
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v6_delivered_48_20260713/best_model.pt",
+          "bytes": 512035563
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v6_delivered_48_20260713/last_model.pt",
+          "bytes": 177116431
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v6_delivered_48_20260713/training_history.json",
+          "bytes": 40305
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "strict_physics_residual_pino_v7_48_20260714",
+      "files": [
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v7_48_20260714/best_model.pt",
+          "bytes": 154572871
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v7_48_20260714/epoch_100.pt",
+          "bytes": 54383563
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v7_48_20260714/epoch_150.pt",
+          "bytes": 54383563
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v7_48_20260714/epoch_50.pt",
+          "bytes": 54383427
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v7_48_20260714/last_model.pt",
+          "bytes": 54384811
+        },
+        {
+          "path": "checkpoints/strict_physics_residual_pino_v7_48_20260714/training_history.json",
+          "bytes": 240060
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "strict_pino_v6_supervised_stable_20260713",
+      "files": [
+        {
+          "path": "checkpoints/strict_pino_v6_supervised_stable_20260713/best_model.pt",
+          "bytes": 512035563
+        },
+        {
+          "path": "checkpoints/strict_pino_v6_supervised_stable_20260713/last_model.pt",
+          "bytes": 177116431
+        },
+        {
+          "path": "checkpoints/strict_pino_v6_supervised_stable_20260713/training_history.json",
+          "bytes": 58933
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "taskdisjoint_five_model_comparator_20260717",
+      "files": [],
+      "weights_uploaded": false
+    },
+    {
+      "name": "taskdisjoint_five_model_comparator_20260718",
+      "files": [
+        {
+          "path": "checkpoints/taskdisjoint_five_model_comparator_20260718/cnn3d/best_model.pt",
+          "bytes": 1022517
+        },
+        {
+          "path": "checkpoints/taskdisjoint_five_model_comparator_20260718/cnn3d/history.json",
+          "bytes": 20685
+        },
+        {
+          "path": "checkpoints/taskdisjoint_five_model_comparator_20260718/cnn3d/protocol.json",
+          "bytes": 191
+        },
+        {
+          "path": "checkpoints/taskdisjoint_five_model_comparator_20260718/full_pino/best_model.pt",
+          "bytes": 154573255
+        },
+        {
+          "path": "checkpoints/taskdisjoint_five_model_comparator_20260718/full_pino/epoch_50.pt",
+          "bytes": 54383427
+        },
+        {
+          "path": "checkpoints/taskdisjoint_five_model_comparator_20260718/full_pino/last_model.pt",
+          "bytes": 54384811
+        },
+        {
+          "path": "checkpoints/taskdisjoint_five_model_comparator_20260718/full_pino/training_history.json",
+          "bytes": 134068
+        },
+        {
+          "path": "checkpoints/taskdisjoint_five_model_comparator_20260718/geometry_mlp/best_model.pt",
+          "bytes": 43513
+        },
+        {
+          "path": "checkpoints/taskdisjoint_five_model_comparator_20260718/geometry_mlp/history.json",
+          "bytes": 20480
+        },
+        {
+          "path": "checkpoints/taskdisjoint_five_model_comparator_20260718/geometry_mlp/protocol.json",
+          "bytes": 191
+        },
+        {
+          "path": "checkpoints/taskdisjoint_five_model_comparator_20260718/ufno/best_model.pt",
+          "bytes": 134897881
+        },
+        {
+          "path": "checkpoints/taskdisjoint_five_model_comparator_20260718/ufno/epoch_50.pt",
+          "bytes": 44960229
+        },
+        {
+          "path": "checkpoints/taskdisjoint_five_model_comparator_20260718/ufno/last_model.pt",
+          "bytes": 44961453
+        },
+        {
+          "path": "checkpoints/taskdisjoint_five_model_comparator_20260718/ufno/training_history.json",
+          "bytes": 155565
+        },
+        {
+          "path": "checkpoints/taskdisjoint_five_model_comparator_20260718/ufno_dual_no_physics/best_model.pt",
+          "bytes": 154573255
+        },
+        {
+          "path": "checkpoints/taskdisjoint_five_model_comparator_20260718/ufno_dual_no_physics/epoch_50.pt",
+          "bytes": 54383427
+        },
+        {
+          "path": "checkpoints/taskdisjoint_five_model_comparator_20260718/ufno_dual_no_physics/last_model.pt",
+          "bytes": 54384811
+        },
+        {
+          "path": "checkpoints/taskdisjoint_five_model_comparator_20260718/ufno_dual_no_physics/training_history.json",
+          "bytes": 187930
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "v27_shadowart_scale_sf_safety",
+      "files": [
+        {
+          "path": "checkpoints/v27_shadowart_scale_sf_safety/best_scale_sf.pt",
+          "bytes": 26311030
+        },
+        {
+          "path": "checkpoints/v27_shadowart_scale_sf_safety/history.json",
+          "bytes": 170046
+        },
+        {
+          "path": "checkpoints/v27_shadowart_scale_sf_safety/training_summary.json",
+          "bytes": 1050
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "v28_shadowart_scale_sf_300case",
+      "files": [
+        {
+          "path": "checkpoints/v28_shadowart_scale_sf_300case/best_scale_sf.pt",
+          "bytes": 26311030
+        },
+        {
+          "path": "checkpoints/v28_shadowart_scale_sf_300case/history.json",
+          "bytes": 213868
+        },
+        {
+          "path": "checkpoints/v28_shadowart_scale_sf_300case/training_summary.json",
+          "bytes": 1065
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "v29_v27_pinball",
+      "files": [
+        {
+          "path": "checkpoints/v29_v27_pinball/best_scale_sf.pt",
+          "bytes": 26311030
+        },
+        {
+          "path": "checkpoints/v29_v27_pinball/history.json",
+          "bytes": 68855
+        },
+        {
+          "path": "checkpoints/v29_v27_pinball/training_summary.json",
+          "bytes": 1066
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "v29b_v27_pinball_s2605",
+      "files": [
+        {
+          "path": "checkpoints/v29b_v27_pinball_s2605/best_scale_sf.pt",
+          "bytes": 26311030
+        },
+        {
+          "path": "checkpoints/v29b_v27_pinball_s2605/history.json",
+          "bytes": 68786
+        },
+        {
+          "path": "checkpoints/v29b_v27_pinball_s2605/training_summary.json",
+          "bytes": 1064
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "v29c_v27_pinball_s2606",
+      "files": [
+        {
+          "path": "checkpoints/v29c_v27_pinball_s2606/best_scale_sf.pt",
+          "bytes": 26311030
+        },
+        {
+          "path": "checkpoints/v29c_v27_pinball_s2606/history.json",
+          "bytes": 68921
+        },
+        {
+          "path": "checkpoints/v29c_v27_pinball_s2606/training_summary.json",
+          "bytes": 1066
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "v38_hybrid_retrain",
+      "files": [
+        {
+          "path": "checkpoints/v38_hybrid_retrain/best.pt",
+          "bytes": 26306867
+        },
+        {
+          "path": "checkpoints/v38_hybrid_retrain/history.json",
+          "bytes": 14611
+        },
+        {
+          "path": "checkpoints/v38_hybrid_retrain/hybrid_index.json",
+          "bytes": 33930
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "v40_geoattn",
+      "files": [
+        {
+          "path": "checkpoints/v40_geoattn/best.pt",
+          "bytes": 17965947
+        },
+        {
+          "path": "checkpoints/v40_geoattn/history.json",
+          "bytes": 12100
+        }
+      ],
+      "weights_uploaded": false
+    },
+    {
+      "name": "v40_seed1111",
+      "files": [
+        {
+          "path": "checkpoints/v40_seed1111/best.pt",
+          "bytes": 17965947
+        },
+        {
+          "path": "checkpoints/v40_seed1111/history.json",
+          "bytes": 12074
+        }
+      ],
+      "weights_uploaded": false
+    }
+  ],
+  "weights_policy": "12 GB of weights remain local; metadata and paths archived. No accuracy claims added."
+}

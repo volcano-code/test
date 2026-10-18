@@ -1,0 +1,130 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "baseline_cc": true,
+    "baseline_closure_1024": true,
+    "baseline_closure_256": true,
+    "baseline_closure_512": true,
+    "baseline_continuous_1024": true,
+    "baseline_continuous_256": true,
+    "baseline_continuous_512": true,
+    "baseline_core_hard_1024": true,
+    "baseline_core_hard_256": true,
+    "baseline_core_hard_512": true,
+    "baseline_field_identity": true,
+    "baseline_obj_failed_mesh_not_promoted": true,
+    "baseline_obj_hash": true,
+    "baseline_obj_mesh_1024": true,
+    "baseline_obj_mesh_256": true,
+    "baseline_obj_mesh_512": true,
+    "baseline_obj_scale": true,
+    "baseline_obj_topology_summary": true,
+    "baseline_optimizer": true,
+    "baseline_original_hard_1024": true,
+    "baseline_original_hard_256": true,
+    "baseline_original_hard_512": true,
+    "baseline_qa_failed": true,
+    "baseline_stl_failed_mesh_not_promoted": true,
+    "baseline_stl_hash": true,
+    "baseline_stl_mesh_1024": true,
+    "baseline_stl_mesh_256": true,
+    "baseline_stl_mesh_512": true,
+    "baseline_stl_scale": true,
+    "baseline_stl_topology_summary": true,
+    "build_source": true,
+    "completed_diagnostic": true,
+    "library": true,
+    "no_canonical_delivery": true,
+    "old_fields_unchanged": true,
+    "rooted_core_cc": true,
+    "rooted_core_closure_1024": true,
+    "rooted_core_closure_256": true,
+    "rooted_core_closure_512": true,
+    "rooted_core_continuous_1024": true,
+    "rooted_core_continuous_256": true,
+    "rooted_core_continuous_512": true,
+    "rooted_core_core_hard_1024": true,
+    "rooted_core_core_hard_256": true,
+    "rooted_core_core_hard_512": true,
+    "rooted_core_field_identity": true,
+    "rooted_core_obj_failed_mesh_not_promoted": true,
+    "rooted_core_obj_hash": true,
+    "rooted_core_obj_mesh_1024": true,
+    "rooted_core_obj_mesh_256": true,
+    "rooted_core_obj_mesh_512": true,
+    "rooted_core_obj_scale": true,
+    "rooted_core_obj_topology_summary": true,
+    "rooted_core_optimizer": true,
+    "rooted_core_original_hard_1024": true,
+    "rooted_core_original_hard_256": true,
+    "rooted_core_original_hard_512": true,
+    "rooted_core_qa_failed": true,
+    "rooted_core_stl_failed_mesh_not_promoted": true,
+    "rooted_core_stl_hash": true,
+    "rooted_core_stl_mesh_1024": true,
+    "rooted_core_stl_mesh_256": true,
+    "rooted_core_stl_mesh_512": true,
+    "rooted_core_stl_scale": true,
+    "rooted_core_stl_topology_summary": true,
+    "shared_prefix_identical": true,
+    "snapshot_native": true,
+    "snapshot_python": true,
+    "source_unchanged": true
+  },
+  "full_suite": {
+    "elapsed_seconds": 412.04,
+    "exit_code": 0,
+    "passed": 677
+  },
+  "gradient_diagnostics": {
+    "baseline": {
+      "auxiliary": {
+        "max_absolute": 0.013164547272026539,
+        "nonzero_voxels": 12462,
+        "norm": 0.020394645631313324,
+        "voxels_for_99percent_squared_norm": 7
+      },
+      "base": {
+        "max_absolute": 7.615084996359656e-06,
+        "nonzero_voxels": 54609,
+        "norm": 4.81114984722808e-05,
+        "voxels_for_99percent_squared_norm": 21245
+      },
+      "diagnostic_only_no_recalibration": true,
+      "weighted_aux_base_norm_ratio": 0.00559472847898957
+    },
+    "common_step300": {
+      "auxiliary": {
+        "max_absolute": 0.4008123278617859,
+        "nonzero_voxels": 10414,
+        "norm": 0.4010237455368042,
+        "voxels_for_99percent_squared_norm": 1
+      },
+      "base": {
+        "max_absolute": 4.3249929149169475e-07,
+        "nonzero_voxels": 2097152,
+        "norm": 5.29275530425366e-05,
+        "voxels_for_99percent_squared_norm": 227609
+      },
+      "diagnostic_only_no_recalibration": true,
+      "weighted_aux_base_norm_ratio": 0.1000000005608818
+    },
+    "rooted_core": {
+      "auxiliary": {
+        "max_absolute": 0.011604501865804195,
+        "nonzero_voxels": 12354,
+        "norm": 0.018406054005026817,
+        "voxels_for_99percent_squared_norm": 8
+      },
+      "base": {
+        "max_absolute": 7.616412858624244e-06,
+        "nonzero_voxels": 46555,
+        "norm": 4.870830525760539e-05,
+        "voxels_for_99percent_squared_norm": 21271
+      },
+      "diagnostic_only_no_recalibration": true,
+      "weighted_aux_base_norm_ratio": 0.004987344777799981
+    }
+  },
+  "meaning": "verification of recorded FAILED delivery diagnostics, not manufactured-model success"
+}

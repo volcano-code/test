@@ -1,0 +1,78 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT=/home/lin/xvxinyao/ShadowForge
+PY=/home/lin/anaconda3/envs/shadowart-revisited/bin/python
+VOXEL=/data/xvxinyao/xvxinyao/xvxinyao1/xvxinyao/XUXINYAO/shadow-project2/mesh/voxel
+INPUTS="$ROOT/results/table2_anime_fixed3_inputs_20260722"
+OUT="${OUT:-$ROOT/results/joint_view_quick_audit_20260727}"
+TASK="${TASK:-arcane_casters}"
+SEED="${SEED:-17}"
+JOINT_ITERS="${JOINT_ITERS:-300}"
+
+# With three inputs and mr=1, the implementation evaluates six declared views.
+N_VIEWS=6
+SEQ_EQUAL_UPDATE_ITERS=$((JOINT_ITERS / N_VIEWS))
+
+cd "$ROOT"
+mkdir -p "$OUT"
+"$PY" experiments/prepare_table2_anime_fixed3_20260722.py
+
+run_one() {
+  local name="$1"
+  local mode="$2"
+  local iterations="$3"
+  local run="$OUT/$TASK/$name/seed_$SEED"
+  local timing="$run/timing.json"
+
+  if [[ -f "$run/metrics.json" && -f "$timing" ]]; then
+    return
+  fi
+
+  mkdir -p "$run"
+  local started finished
+  started=$(date +%s)
+  "$PY" "$VOXEL/train.py" cuda:0 "$run" "$iterations" 0.007 1 \
+    -sdlist \
+      "$INPUTS/$TASK/view_0.png" \
+      "$INPUTS/$TASK/view_1.png" \
+      "$INPUTS/$TASK/view_2.png" \
+    -mr 1 -tsf 1 -tsf4 0 -cam ortho -imsz 256 \
+    --res 128 -eres 128 --control-res 0 --sadekar-zdist 1.7 \
+    --proposal-mode proposal --view-update-mode "$mode" \
+    --save-every "$iterations" --no-cleanup --export-final-step \
+    --seed "$SEED" --disable-losses volume
+  finished=$(date +%s)
+
+  "$PY" - "$timing" "$mode" "$iterations" "$N_VIEWS" "$((finished - started))" <<'PY'
+import json
+import sys
+from pathlib import Path
+
+path, mode, iterations, n_views, elapsed = sys.argv[1:]
+iterations = int(iterations)
+n_views = int(n_views)
+optimizer_steps = iterations if mode == "joint" else iterations * n_views
+payload = {
+    "mode": mode,
+    "outer_iterations": iterations,
+    "declared_views": n_views,
+    "optimizer_steps": optimizer_steps,
+    "training_view_exposures": iterations * n_views,
+    "elapsed_s": int(elapsed),
+}
+Path(path).write_text(json.dumps(payload, indent=2) + "\n")
+PY
+}
+
+# Same all-view exposure budget, but sequential receives six times more updates.
+run_one joint_300 joint "$JOINT_ITERS"
+run_one sequential_equal_view_exposure sequential "$JOINT_ITERS"
+
+# Same optimizer-step budget, but joint receives six times more view exposures.
+run_one sequential_equal_optimizer_steps sequential "$SEQ_EQUAL_UPDATE_ITERS"
+
+"$PY" experiments/summarize_joint_view_quick_audit_20260727.py \
+  --root "$OUT" --task "$TASK" --seed "$SEED"
+
+echo "Audit complete: $OUT/summary.json"

@@ -1,0 +1,6 @@
+{
+  "input": "same delivered C48 structural proxy as PINO",
+  "target": "FEM log10 peak von-Mises stress",
+  "split": "task-disjoint source index",
+  "calibration": "calibration split only"
+}

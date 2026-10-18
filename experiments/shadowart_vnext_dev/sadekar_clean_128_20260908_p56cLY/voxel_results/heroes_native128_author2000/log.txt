@@ -1,0 +1,8 @@
+The command line input string 
+['val.py', 'cuda:0', 'heroes_native128_author2000', '2000', '0.01', '-swt', '10.0', '-l1wt', '10.0', '-mwt', '0.0', '-th', '0.05', '-zd', '1.7', '-imsz', '128', '-tsf', 'true', '-sdlist', '/home/lin/xvxinyao/P-CRAFT/generation/Spider-Man.png', '/home/lin/xvxinyao/P-CRAFT/generation/superman.png', '/home/lin/xvxinyao/P-CRAFT/generation/batman.png']
+Edge loss : 0.0003308439045213163
+Laplacian loss : 0.006532099097967148
+Normal loss : 0.33862578868865967
+IOU metric: 0.026007757232921886
+Dice metric: 0.050946288199890055
+MISSIM metric: 0.5000721407557527

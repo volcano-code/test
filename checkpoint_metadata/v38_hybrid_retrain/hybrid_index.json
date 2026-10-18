@@ -1,0 +1,1107 @@
+{
+  "train_n": 110,
+  "val_n": 27,
+  "records": {
+    "train": [
+      {
+        "path": "harvest/hn2_008_batman_hand_heart_er1_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 31.625185012817383,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_018_armadill_duck_mikey_er1_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 17.251590728759766,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_044_bunny_13_heart_puma_er2_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 21.061769485473633,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_038_duck_mikey_yo_er1_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 18.001605987548828,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_005_SpiderMa_bunny_0_duck_er1_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 12.67798900604248,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_019_armadill_bunny_0_teddy2_er2_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 26.299663543701172,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_010_SpiderMa_duck_victory_er1_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 22.211997985839844,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "samples/hn2_000_hand_teddy2_victory_er4.npz",
+        "sf": 7.202234745025635,
+        "log_vm_max": 7.540472507476807,
+        "load_multiplier": 1.0,
+        "is_base_load": true,
+        "source": "p22g"
+      },
+      {
+        "path": "harvest/hn2_028_batman_puma_yo_er1_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 14.707527160644531,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_049_bunny_13_duck_hand_er1_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 9.315475463867188,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_005_SpiderMa_bunny_0_duck_er1_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 9.055706024169922,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_012_puma_superman_victory_er1_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 9.461545944213867,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_041_duck_superman_victory_er1_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 15.379855155944824,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_002_bunny_0_mikey_teddy2_er3_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 32.508541107177734,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_016_SpiderMa_puma_victory_er1_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 16.95695686340332,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_045_SpiderMa_armadill_teddy2_er3_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 4.418575286865234,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_013_bunny_13_duck_teddy2_er1_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 17.797441482543945,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_049_bunny_13_duck_hand_er1_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 10.868054389953613,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_041_duck_superman_victory_er1_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 12.30388355255127,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_016_SpiderMa_puma_victory_er1_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 13.56556510925293,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_024_SpiderMa_teddy2_yo_er1_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 6.889927387237549,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "samples/hn2_048_bunny_13_like_victory_er2.npz",
+        "sf": 6.2426300048828125,
+        "log_vm_max": 7.602572441101074,
+        "load_multiplier": 1.0,
+        "is_base_load": true,
+        "source": "p22g"
+      },
+      {
+        "path": "harvest/hn2_038_duck_mikey_yo_er1_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 12.85828971862793,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_022_batman_victory_yo_er1_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 7.201388359069824,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_030_armadill_bunny_13_teddy2_er4_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 1.962010383605957,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_049_bunny_13_duck_hand_er1_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 13.041665077209473,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_008_batman_hand_heart_er1_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 18.071535110473633,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_034_bunny_0_heart_like_er1_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 10.063628196716309,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_031_armadill_like_yo_er1_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 9.439138412475586,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_013_bunny_13_duck_teddy2_er1_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 15.254949569702148,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_008_batman_hand_heart_er1_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 21.08345603942871,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_018_armadill_duck_mikey_er1_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 25.87738609313965,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_034_bunny_0_heart_like_er1_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 11.740899085998535,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_028_batman_puma_yo_er1_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 22.061290740966797,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "samples/hn2_004_bunny_13_like_yo_er2.npz",
+        "sf": 5.8700971603393555,
+        "log_vm_max": 7.6292948722839355,
+        "load_multiplier": 1.0,
+        "is_base_load": true,
+        "source": "p22g"
+      },
+      {
+        "path": "harvest/hn2_034_bunny_0_heart_like_er1_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 17.61134910583496,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_001_heart_superman_victory_er2_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 29.3512020111084,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_047_SpiderMa_armadill_duck_er1_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 24.124874114990234,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_045_SpiderMa_armadill_teddy2_er3_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 5.302290439605713,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_030_armadill_bunny_13_teddy2_er4_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 2.2890119552612305,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_007_superman_teddy2_victory_er2_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 22.110395431518555,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "samples/hn2_036_duck_like_mikey_er4.npz",
+        "sf": 1.2040400505065918,
+        "log_vm_max": 8.317298889160156,
+        "load_multiplier": 1.0,
+        "is_base_load": true,
+        "source": "p22g"
+      },
+      {
+        "path": "harvest/hn2_016_SpiderMa_puma_victory_er1_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 9.689689636230469,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_007_superman_teddy2_victory_er2_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 33.165592193603516,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_032_duck_teddy2_victory_er2_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 21.37152671813965,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "samples/hn2_015_like_superman_teddy2_er3.npz",
+        "sf": 5.617557525634766,
+        "log_vm_max": 7.648392677307129,
+        "load_multiplier": 1.0,
+        "is_base_load": true,
+        "source": "p22g"
+      },
+      {
+        "path": "harvest/hn2_002_bunny_0_mikey_teddy2_er3_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 21.672361373901367,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "samples/hn2_025_hand_mikey_victory_er4.npz",
+        "sf": 2.7165799140930176,
+        "log_vm_max": 7.9639177322387695,
+        "load_multiplier": 1.0,
+        "is_base_load": true,
+        "source": "p22g"
+      },
+      {
+        "path": "samples/hn2_043_bunny_13_hand_puma_er4.npz",
+        "sf": 7.034432888031006,
+        "log_vm_max": 7.550711154937744,
+        "load_multiplier": 1.0,
+        "is_base_load": true,
+        "source": "p22g"
+      },
+      {
+        "path": "harvest/hn2_030_armadill_bunny_13_teddy2_er4_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 3.433518171310425,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_032_duck_teddy2_victory_er2_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 24.933446884155273,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "samples/hn2_014_SpiderMa_armadill_victory_er4.npz",
+        "sf": 1.4725369215011597,
+        "log_vm_max": 8.229873657226562,
+        "load_multiplier": 1.0,
+        "is_base_load": true,
+        "source": "p22g"
+      },
+      {
+        "path": "samples/hn2_003_SpiderMa_bunny_0_yo_er2.npz",
+        "sf": 3.2289905548095703,
+        "log_vm_max": 7.888873100280762,
+        "load_multiplier": 1.0,
+        "is_base_load": true,
+        "source": "p22g"
+      },
+      {
+        "path": "harvest/hn2_044_bunny_13_heart_puma_er2_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 18.05294418334961,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "samples/hn2_006_SpiderMa_bunny_13_duck_er2.npz",
+        "sf": 7.3023786544799805,
+        "log_vm_max": 7.534475803375244,
+        "load_multiplier": 1.0,
+        "is_base_load": true,
+        "source": "p22g"
+      },
+      {
+        "path": "harvest/hn2_032_duck_teddy2_victory_er2_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 37.400169372558594,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_044_bunny_13_heart_puma_er2_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 31.592653274536133,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_028_batman_puma_yo_er1_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 17.649032592773438,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_031_armadill_like_yo_er1_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 6.292758941650391,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_010_SpiderMa_duck_victory_er1_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 15.86571216583252,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_047_SpiderMa_armadill_duck_er1_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 20.104061126708984,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_020_bunny_0_puma_teddy2_er2_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 36.4549560546875,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_016_SpiderMa_puma_victory_er1_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 11.304637908935547,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_007_superman_teddy2_victory_er2_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 26.532474517822266,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_028_batman_puma_yo_er1_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 12.606451988220215,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_002_bunny_0_mikey_teddy2_er3_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 18.576309204101562,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_031_armadill_like_yo_er1_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 7.551311016082764,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_005_SpiderMa_bunny_0_duck_er1_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 10.564990997314453,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_008_batman_hand_heart_er1_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 25.300148010253906,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_024_SpiderMa_teddy2_yo_er1_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 8.612409591674805,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_033_armadill_superman_victory_er1_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 32.20009231567383,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_001_heart_superman_victory_er2_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 36.689002990722656,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "samples/hn2_046_bunny_13_hand_like_er3.npz",
+        "sf": 2.9454729557037354,
+        "log_vm_max": 7.9287848472595215,
+        "load_multiplier": 1.0,
+        "is_base_load": true,
+        "source": "p22g"
+      },
+      {
+        "path": "harvest/hn2_039_batman_hand_teddy2_er1_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 25.361799240112305,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_019_armadill_bunny_0_teddy2_er2_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 21.916385650634766,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_027_hand_mikey_puma_er3_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 20.197423934936523,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_034_bunny_0_heart_like_er1_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 14.089078903198242,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_039_batman_hand_teddy2_er1_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 16.907865524291992,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_018_armadill_duck_mikey_er1_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 14.787077903747559,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_020_bunny_0_puma_teddy2_er2_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 29.163965225219727,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_012_puma_superman_victory_er1_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 11.038470268249512,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_033_armadill_superman_victory_er1_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 25.760072708129883,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_007_superman_teddy2_victory_er2_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 18.951766967773438,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_039_batman_hand_teddy2_er1_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 14.492456436157227,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_044_bunny_13_heart_puma_er2_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 25.27412223815918,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "samples/hn2_035_heart_like_yo_er4.npz",
+        "sf": 2.3590457439422607,
+        "log_vm_max": 8.025203704833984,
+        "load_multiplier": 1.0,
+        "is_base_load": true,
+        "source": "p22g"
+      },
+      {
+        "path": "harvest/hn2_045_SpiderMa_armadill_teddy2_er3_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 3.7873504161834717,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "samples/hn2_011_bunny_13_heart_teddy2_er4.npz",
+        "sf": 1.4487402439117432,
+        "log_vm_max": 8.236949920654297,
+        "load_multiplier": 1.0,
+        "is_base_load": true,
+        "source": "p22g"
+      },
+      {
+        "path": "harvest/hn2_038_duck_mikey_yo_er1_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 15.001338005065918,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "samples/hn2_037_duck_victory_yo_er4.npz",
+        "sf": 1.819498896598816,
+        "log_vm_max": 8.137988090515137,
+        "load_multiplier": 1.0,
+        "is_base_load": true,
+        "source": "p22g"
+      },
+      {
+        "path": "harvest/hn2_024_SpiderMa_teddy2_yo_er1_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 5.74160623550415,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_049_bunny_13_duck_hand_er1_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 16.302082061767578,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_027_hand_mikey_puma_er3_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 17.312076568603516,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_010_SpiderMa_duck_victory_er1_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 18.509998321533203,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "samples/hn2_040_batman_mikey_puma_er4.npz",
+        "sf": 4.185404300689697,
+        "log_vm_max": 7.77620267868042,
+        "load_multiplier": 1.0,
+        "is_base_load": true,
+        "source": "p22g"
+      },
+      {
+        "path": "harvest/hn2_012_puma_superman_victory_er1_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 16.557706832885742,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_002_bunny_0_mikey_teddy2_er3_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 26.006834030151367,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_009_mikey_superman_teddy2_er1_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 22.00149917602539,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_019_armadill_bunny_0_teddy2_er2_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 18.78547477722168,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "samples/hn2_029_batman_hand_yo_er3.npz",
+        "sf": 3.974862813949585,
+        "log_vm_max": 7.798617839813232,
+        "load_multiplier": 1.0,
+        "is_base_load": true,
+        "source": "p22g"
+      },
+      {
+        "path": "harvest/hn2_047_SpiderMa_armadill_duck_er1_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 17.232051849365234,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_031_armadill_like_yo_er1_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 5.39379358291626,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_001_heart_superman_victory_er2_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 20.965145111083984,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_027_hand_mikey_puma_er3_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 24.236907958984375,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_009_mikey_superman_teddy2_er1_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 18.858427047729492,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_041_duck_superman_victory_er1_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 8.788488388061523,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_019_armadill_bunny_0_teddy2_er2_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 32.87458038330078,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_032_duck_teddy2_victory_er2_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 29.920135498046875,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_013_bunny_13_duck_teddy2_er1_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 26.6961612701416,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_022_batman_victory_yo_er1_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 9.00173568725586,
+        "is_base_load": false,
+        "source": "p22h"
+      }
+    ],
+    "val": [
+      {
+        "path": "harvest/hn2_022_batman_victory_yo_er1_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 6.001157283782959,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_039_batman_hand_teddy2_er1_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 20.289438247680664,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_027_hand_mikey_puma_er3_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 30.29613494873047,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_013_bunny_13_duck_teddy2_er1_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 21.356929779052734,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_038_duck_mikey_yo_er1_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 22.50200653076172,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_024_SpiderMa_teddy2_yo_er1_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 4.921376705169678,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_009_mikey_superman_teddy2_er1_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 26.401798248291016,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_005_SpiderMa_bunny_0_duck_er1_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 15.847485542297363,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "samples/hn2_023_batman_bunny_13_duck_er3.npz",
+        "sf": 2.0940423011779785,
+        "log_vm_max": 8.07695484161377,
+        "load_multiplier": 1.0,
+        "is_base_load": true,
+        "source": "p22g"
+      },
+      {
+        "path": "harvest/hn2_010_SpiderMa_duck_victory_er1_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 27.764997482299805,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_012_puma_superman_victory_er1_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 13.246164321899414,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_033_armadill_superman_victory_er1_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 18.400053024291992,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "samples/hn2_021_armadill_duck_victory_er4.npz",
+        "sf": 1.368650197982788,
+        "log_vm_max": 8.26164722442627,
+        "load_multiplier": 1.0,
+        "is_base_load": true,
+        "source": "p22g"
+      },
+      {
+        "path": "harvest/hn2_033_armadill_superman_victory_er1_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 21.46672821044922,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "samples/hn2_042_bunny_0_victory_yo_er3.npz",
+        "sf": 7.140071392059326,
+        "log_vm_max": 7.5442376136779785,
+        "load_multiplier": 1.0,
+        "is_base_load": true,
+        "source": "p22g"
+      },
+      {
+        "path": "harvest/hn2_001_heart_superman_victory_er2_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 24.459335327148438,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_018_armadill_duck_mikey_er1_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 20.701908111572266,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_047_SpiderMa_armadill_duck_er1_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 30.156091690063477,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_022_batman_victory_yo_er1_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 5.143848896026611,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_009_mikey_superman_teddy2_er1_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 33.00224685668945,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_020_bunny_0_puma_teddy2_er2_t1.4.npz",
+        "sf": 7.0,
+        "log_vm_max": 7.552842140197754,
+        "load_multiplier": 20.831403732299805,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_041_duck_superman_victory_er1_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 10.253236770629883,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "samples/hn2_026_armadill_bunny_13_puma_er4.npz",
+        "sf": 6.250514507293701,
+        "log_vm_max": 7.602024078369141,
+        "load_multiplier": 1.0,
+        "is_base_load": true,
+        "source": "p22g"
+      },
+      {
+        "path": "samples/hn2_017_hand_victory_yo_er4.npz",
+        "sf": 1.9909785985946655,
+        "log_vm_max": 8.098873138427734,
+        "load_multiplier": 1.0,
+        "is_base_load": true,
+        "source": "p22g"
+      },
+      {
+        "path": "harvest/hn2_045_SpiderMa_armadill_teddy2_er3_t0.8.npz",
+        "sf": 4.0,
+        "log_vm_max": 7.79587984085083,
+        "load_multiplier": 6.627862930297852,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_030_armadill_bunny_13_teddy2_er4_t1.0.npz",
+        "sf": 5.0,
+        "log_vm_max": 7.698969841003418,
+        "load_multiplier": 2.746814489364624,
+        "is_base_load": false,
+        "source": "p22h"
+      },
+      {
+        "path": "harvest/hn2_020_bunny_0_puma_teddy2_er2_t1.2.npz",
+        "sf": 6.0,
+        "log_vm_max": 7.619788646697998,
+        "load_multiplier": 24.30330467224121,
+        "is_base_load": false,
+        "source": "p22h"
+      }
+    ],
+    "test": []
+  }
+}

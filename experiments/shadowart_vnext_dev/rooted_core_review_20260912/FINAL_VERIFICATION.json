@@ -1,0 +1,40 @@
+{
+  "20": {
+    "captured_python": true,
+    "captured_native": true,
+    "native_binary": true,
+    "input_and_artifact_unchanged_now": true,
+    "source_unchanged_at_run_end": true,
+    "camera_digest": true,
+    "same_initial_logits": true,
+    "baseline_arrays": true,
+    "baseline_component_count": true,
+    "baseline_reloaded_occupancy_iou_256": true,
+    "baseline_reloaded_occupancy_iou_512": true,
+    "baseline_reloaded_occupancy_iou_1024": true,
+    "rooted_core_arrays": true,
+    "rooted_core_component_count": true,
+    "rooted_core_reloaded_occupancy_iou_256": true,
+    "rooted_core_reloaded_occupancy_iou_512": true,
+    "rooted_core_reloaded_occupancy_iou_1024": true
+  },
+  "200": {
+    "captured_python": true,
+    "captured_native": true,
+    "native_binary": true,
+    "input_and_artifact_unchanged_now": true,
+    "source_unchanged_at_run_end": true,
+    "camera_digest": true,
+    "same_initial_logits": true,
+    "baseline_arrays": true,
+    "baseline_component_count": true,
+    "baseline_reloaded_occupancy_iou_256": true,
+    "baseline_reloaded_occupancy_iou_512": true,
+    "baseline_reloaded_occupancy_iou_1024": true,
+    "rooted_core_arrays": true,
+    "rooted_core_component_count": true,
+    "rooted_core_reloaded_occupancy_iou_256": true,
+    "rooted_core_reloaded_occupancy_iou_512": true,
+    "rooted_core_reloaded_occupancy_iou_1024": true
+  }
+}
