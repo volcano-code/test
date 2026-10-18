@@ -17,3 +17,26 @@ does not establish training reproducibility or model accuracy. Native, Python
 and third-party dependencies used by local scripts must be provisioned separately.
 
 All local files were preserved. No training jobs were started for this archive.
+
+## Selected variant
+
+```json
+{
+  "name": "strict_pino_v6_supervised_stable_20260713",
+  "files": [
+    {
+      "path": "checkpoints/strict_pino_v6_supervised_stable_20260713/best_model.pt",
+      "bytes": 512035563
+    },
+    {
+      "path": "checkpoints/strict_pino_v6_supervised_stable_20260713/last_model.pt",
+      "bytes": 177116431
+    },
+    {
+      "path": "checkpoints/strict_pino_v6_supervised_stable_20260713/training_history.json",
+      "bytes": 58933
+    }
+  ],
+  "weights_uploaded": false
+}
+```
