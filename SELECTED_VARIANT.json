@@ -1,0 +1,22 @@
+{
+  "name": "strict_physics_residual_pino_v16_shadowart_scale_20260718",
+  "files": [
+    {
+      "path": "checkpoints/strict_physics_residual_pino_v16_shadowart_scale_20260718/best_model.pt",
+      "bytes": 154573383
+    },
+    {
+      "path": "checkpoints/strict_physics_residual_pino_v16_shadowart_scale_20260718/epoch_50.pt",
+      "bytes": 54383427
+    },
+    {
+      "path": "checkpoints/strict_physics_residual_pino_v16_shadowart_scale_20260718/last_model.pt",
+      "bytes": 54384811
+    },
+    {
+      "path": "checkpoints/strict_physics_residual_pino_v16_shadowart_scale_20260718/training_history.json",
+      "bytes": 127906
+    }
+  ],
+  "weights_uploaded": false
+}
