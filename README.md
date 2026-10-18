@@ -17,3 +17,22 @@ does not establish training reproducibility or model accuracy. Native, Python
 and third-party dependencies used by local scripts must be provisioned separately.
 
 All local files were preserved. No training jobs were started for this archive.
+
+## Selected variant
+
+```json
+{
+  "name": "v40_seed1111",
+  "files": [
+    {
+      "path": "checkpoints/v40_seed1111/best.pt",
+      "bytes": 17965947
+    },
+    {
+      "path": "checkpoints/v40_seed1111/history.json",
+      "bytes": 12074
+    }
+  ],
+  "weights_uploaded": false
+}
+```

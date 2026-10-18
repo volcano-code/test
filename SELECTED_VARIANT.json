@@ -1,0 +1,14 @@
+{
+  "name": "v40_seed1111",
+  "files": [
+    {
+      "path": "checkpoints/v40_seed1111/best.pt",
+      "bytes": 17965947
+    },
+    {
+      "path": "checkpoints/v40_seed1111/history.json",
+      "bytes": 12074
+    }
+  ],
+  "weights_uploaded": false
+}
