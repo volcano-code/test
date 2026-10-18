@@ -17,3 +17,26 @@ does not establish training reproducibility or model accuracy. Native, Python
 and third-party dependencies used by local scripts must be provisioned separately.
 
 All local files were preserved. No training jobs were started for this archive.
+
+## Selected variant
+
+```json
+{
+  "name": "official_transolver_official_formal_60e_w8_20260727",
+  "files": [
+    {
+      "path": "checkpoints/official_transolver_official_formal_60e_w8_20260727/best_model.pt",
+      "bytes": 173154
+    },
+    {
+      "path": "checkpoints/official_transolver_official_formal_60e_w8_20260727/last_model.pt",
+      "bytes": 56806
+    },
+    {
+      "path": "checkpoints/official_transolver_official_formal_60e_w8_20260727/training_history.json",
+      "bytes": 7290
+    }
+  ],
+  "weights_uploaded": false
+}
+```
