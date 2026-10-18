@@ -1,0 +1,22 @@
+{
+  "name": "strict_physics_residual_decision_pino_v9_stable_20260715",
+  "files": [
+    {
+      "path": "checkpoints/strict_physics_residual_decision_pino_v9_stable_20260715/best_model.pt",
+      "bytes": 64905965
+    },
+    {
+      "path": "checkpoints/strict_physics_residual_decision_pino_v9_stable_20260715/epoch_50.pt",
+      "bytes": 54383427
+    },
+    {
+      "path": "checkpoints/strict_physics_residual_decision_pino_v9_stable_20260715/last_model.pt",
+      "bytes": 54384811
+    },
+    {
+      "path": "checkpoints/strict_physics_residual_decision_pino_v9_stable_20260715/training_history.json",
+      "bytes": 106761
+    }
+  ],
+  "weights_uploaded": false
+}
