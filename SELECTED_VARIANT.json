@@ -1,0 +1,10 @@
+{
+  "name": "_smoke_taskgrouped_20260711",
+  "files": [
+    {
+      "path": "checkpoints/_smoke_taskgrouped_20260711/decision_aware_pino.pt",
+      "bytes": 26482670
+    }
+  ],
+  "weights_uploaded": false
+}
