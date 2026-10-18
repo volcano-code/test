@@ -17,3 +17,18 @@ does not establish training reproducibility or model accuracy. Native, Python
 and third-party dependencies used by local scripts must be provisioned separately.
 
 All local files were preserved. No training jobs were started for this archive.
+
+## Selected variant
+
+```json
+{
+  "name": "current_candidate_lowerbound_pino_expand40_100epoch_20260710",
+  "files": [
+    {
+      "path": "checkpoints/current_candidate_lowerbound_pino_expand40_100epoch_20260710/lowerbound_scale_pino.pt",
+      "bytes": 27710936
+    }
+  ],
+  "weights_uploaded": false
+}
+```

@@ -1,0 +1,10 @@
+{
+  "name": "current_candidate_lowerbound_pino_expand40_100epoch_20260710",
+  "files": [
+    {
+      "path": "checkpoints/current_candidate_lowerbound_pino_expand40_100epoch_20260710/lowerbound_scale_pino.pt",
+      "bytes": 27710936
+    }
+  ],
+  "weights_uploaded": false
+}
