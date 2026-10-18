@@ -1,0 +1,10 @@
+{
+  "name": "current_candidate_maxcoverage_pino_100case_nearboundary_120epoch_20260710",
+  "files": [
+    {
+      "path": "checkpoints/current_candidate_maxcoverage_pino_100case_nearboundary_120epoch_20260710/maxcoverage_decision_pino.pt",
+      "bytes": 28174448
+    }
+  ],
+  "weights_uploaded": false
+}
