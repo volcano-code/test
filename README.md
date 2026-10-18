@@ -17,3 +17,26 @@ does not establish training reproducibility or model accuracy. Native, Python
 and third-party dependencies used by local scripts must be provisioned separately.
 
 All local files were preserved. No training jobs were started for this archive.
+
+## Selected variant
+
+```json
+{
+  "name": "official_gino_official_pilot_20260723",
+  "files": [
+    {
+      "path": "checkpoints/official_gino_official_pilot_20260723/best_model.pt",
+      "bytes": 7319865
+    },
+    {
+      "path": "checkpoints/official_gino_official_pilot_20260723/last_model.pt",
+      "bytes": 2441093
+    },
+    {
+      "path": "checkpoints/official_gino_official_pilot_20260723/training_history.json",
+      "bytes": 5398
+    }
+  ],
+  "weights_uploaded": false
+}
+```
