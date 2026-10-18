@@ -1,0 +1,4 @@
+{
+  "architecture": "calibrated-pino-d23",
+  "entry": "structural/models/calibrated_pino_d23.py:CalibratedPINOD23"
+}

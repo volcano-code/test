@@ -17,3 +17,12 @@ does not establish training reproducibility or model accuracy. Native, Python
 and third-party dependencies used by local scripts must be provisioned separately.
 
 All local files were preserved. No training jobs were started for this archive.
+
+## Selected variant
+
+```json
+{
+  "architecture": "calibrated-pino-d23",
+  "entry": "structural/models/calibrated_pino_d23.py:CalibratedPINOD23"
+}
+```
