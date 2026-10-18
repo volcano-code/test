@@ -1,0 +1,10 @@
+{
+  "name": "decision_aware_pino_print_candidates_smoke_20260708",
+  "files": [
+    {
+      "path": "checkpoints/decision_aware_pino_print_candidates_smoke_20260708/decision_aware_pino.pt",
+      "bytes": 18141474
+    }
+  ],
+  "weights_uploaded": false
+}
