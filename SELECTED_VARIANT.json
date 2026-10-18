@@ -1,0 +1,10 @@
+{
+  "name": "near_boundary_safety_decision_gate_20260704",
+  "files": [
+    {
+      "path": "checkpoints/near_boundary_safety_decision_gate_20260704/gate.joblib",
+      "bytes": 670272
+    }
+  ],
+  "weights_uploaded": false
+}
