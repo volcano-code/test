@@ -17,3 +17,18 @@ does not establish training reproducibility or model accuracy. Native, Python
 and third-party dependencies used by local scripts must be provisioned separately.
 
 All local files were preserved. No training jobs were started for this archive.
+
+## Selected variant
+
+```json
+{
+  "name": "pino_aug_hardneg_20260624",
+  "files": [
+    {
+      "path": "checkpoints/pino_aug_hardneg_20260624/scale_geoattn_e8.pt",
+      "bytes": 17970095
+    }
+  ],
+  "weights_uploaded": false
+}
+```

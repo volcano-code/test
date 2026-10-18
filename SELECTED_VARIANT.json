@@ -1,0 +1,10 @@
+{
+  "name": "pino_aug_hardneg_20260624",
+  "files": [
+    {
+      "path": "checkpoints/pino_aug_hardneg_20260624/scale_geoattn_e8.pt",
+      "bytes": 17970095
+    }
+  ],
+  "weights_uploaded": false
+}
