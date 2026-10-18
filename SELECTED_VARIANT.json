@@ -1,0 +1,10 @@
+{
+  "name": "pino_candidate_decision_20260703",
+  "files": [
+    {
+      "path": "checkpoints/pino_candidate_decision_20260703/field_tail_delta.pt",
+      "bytes": 4616603
+    }
+  ],
+  "weights_uploaded": false
+}
