@@ -1,0 +1,10 @@
+{
+  "name": "pino_candidate_grouped_20260703",
+  "files": [
+    {
+      "path": "checkpoints/pino_candidate_grouped_20260703/best_grouped_candidate.pt",
+      "bytes": 17968489
+    }
+  ],
+  "weights_uploaded": false
+}
