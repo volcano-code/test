@@ -1,0 +1,18 @@
+{
+  "name": "official_transolver_official_pilot_20260723",
+  "files": [
+    {
+      "path": "checkpoints/official_transolver_official_pilot_20260723/best_model.pt",
+      "bytes": 1529442
+    },
+    {
+      "path": "checkpoints/official_transolver_official_pilot_20260723/last_model.pt",
+      "bytes": 509030
+    },
+    {
+      "path": "checkpoints/official_transolver_official_pilot_20260723/training_history.json",
+      "bytes": 5426
+    }
+  ],
+  "weights_uploaded": false
+}
