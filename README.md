@@ -17,3 +17,18 @@ does not establish training reproducibility or model accuracy. Native, Python
 and third-party dependencies used by local scripts must be provisioned separately.
 
 All local files were preserved. No training jobs were started for this archive.
+
+## Selected variant
+
+```json
+{
+  "name": "pino_near_safe_margin_smoke_20260704",
+  "files": [
+    {
+      "path": "checkpoints/pino_near_safe_margin_smoke_20260704/safe_side_external_hardneg_scale.pt",
+      "bytes": 17970143
+    }
+  ],
+  "weights_uploaded": false
+}
+```
