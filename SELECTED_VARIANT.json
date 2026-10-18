@@ -1,0 +1,30 @@
+{
+  "name": "strict_physics_residual_pino_v7_48_20260714",
+  "files": [
+    {
+      "path": "checkpoints/strict_physics_residual_pino_v7_48_20260714/best_model.pt",
+      "bytes": 154572871
+    },
+    {
+      "path": "checkpoints/strict_physics_residual_pino_v7_48_20260714/epoch_100.pt",
+      "bytes": 54383563
+    },
+    {
+      "path": "checkpoints/strict_physics_residual_pino_v7_48_20260714/epoch_150.pt",
+      "bytes": 54383563
+    },
+    {
+      "path": "checkpoints/strict_physics_residual_pino_v7_48_20260714/epoch_50.pt",
+      "bytes": 54383427
+    },
+    {
+      "path": "checkpoints/strict_physics_residual_pino_v7_48_20260714/last_model.pt",
+      "bytes": 54384811
+    },
+    {
+      "path": "checkpoints/strict_physics_residual_pino_v7_48_20260714/training_history.json",
+      "bytes": 240060
+    }
+  ],
+  "weights_uploaded": false
+}
