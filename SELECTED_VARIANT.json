@@ -1,0 +1,10 @@
+{
+  "name": "pino_safe_side_boundary_full_20260703",
+  "files": [
+    {
+      "path": "checkpoints/pino_safe_side_boundary_full_20260703/safe_side_boundary_scale.pt",
+      "bytes": 17968743
+    }
+  ],
+  "weights_uploaded": false
+}
