@@ -1,0 +1,18 @@
+{
+  "name": "current_candidate_physics_pino_120epoch_20260711",
+  "files": [
+    {
+      "path": "checkpoints/current_candidate_physics_pino_120epoch_20260711/best_model.pt",
+      "bytes": 512033963
+    },
+    {
+      "path": "checkpoints/current_candidate_physics_pino_120epoch_20260711/last_model.pt",
+      "bytes": 177115855
+    },
+    {
+      "path": "checkpoints/current_candidate_physics_pino_120epoch_20260711/training_history.json",
+      "bytes": 27120
+    }
+  ],
+  "weights_uploaded": false
+}
